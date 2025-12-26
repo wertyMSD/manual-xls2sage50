@@ -1,10 +1,14 @@
 Page,Meta description
-https://wertymsd.github.io/xls2sage50/,"Crea consultas personalizadas en SAGE50 con plantillas SQL y simplifica los cuadro de mando y informes, Realiza informes  avanzados de manera eficiente y sencilla."
-https://wertymsd.github.io/xls2sage50/apertura-de-archivos-excel/,Creación de formato SAGE50 para importación usando EXCEL
+https://wertymsd.github.io/xls2sage50/,"Importador y generador de CSV para SAGE50, con UI Flet. Permite mapear campos, validar datos y procesar tanto por API (pago/licencia) como por CSV (libre)."
+https://wertymsd.github.io/xls2sage50/01_importar_datos/,"Cargar Excel/CSV, aplicar plantilla .PREDEFINIDO y preparar el fichero con columna de cuenta (opcional)."
+https://wertymsd.github.io/xls2sage50/02_proceso_api/,Cuando tienes licencia activa y conectividad con la API de SAGE50. Permite importar directamente y validar contra tablas reales.
+https://wertymsd.github.io/xls2sage50/03_proceso_csv/,Siempre que quieras generar un CSV listo para SAGE50 sin usar la API (no requiere licencia).
+https://wertymsd.github.io/xls2sage50/04_plantillas_mapeo/, Reutilizar configuraciones de mapeo y campos fijos mediante archivos .PREDEFINIDO.
+https://wertymsd.github.io/xls2sage50/05_configuracion_preferencias/,Configuración de la aplicación
+https://wertymsd.github.io/xls2sage50/06_ayuda_y_atajos/,Ayuda de la aplicacion
+https://wertymsd.github.io/xls2sage50/07_problemas_comunes/,Duda de uso de la aplicación
+https://wertymsd.github.io/xls2sage50/CSV_SOLO/, Guia rapida solo CSV (libre/gratuito)
 https://wertymsd.github.io/xls2sage50/conexion-con-sage50/,"Aprende a conectar SAGE50 BI a tu base de datos SQL paso a paso. Configura servidor, usuario y selecciona la base de datos fácilmente."
-https://wertymsd.github.io/xls2sage50/conversion-plantillas-formato-sage50/,Proceso de conversión a formato compatible desde Excel a importación de SAGE50
-https://wertymsd.github.io/xls2sage50/creacion-nuevas-plantillas/,Usar Plantillas desde SAGE50 para generar fichero Excel para facilitar el proceso
-https://wertymsd.github.io/xls2sage50/eliminacion-archivos/,Eliminacion de los CSV ya usando.
+https://wertymsd.github.io/xls2sage50/inicio-rapido-xls2sage50/,XLS2SAGE50 - Guía de uso (modo rápido)
 https://wertymsd.github.io/xls2sage50/link-descarga/,Descarga gratuita del programa para fichero compatible con SAGE50 para su modulo de importación desde EXCEL
-https://wertymsd.github.io/xls2sage50/parametros-ejecucion-sage50bi/,Define los parámetros de ejecución en SAGE50 BI para automatizar procesos. Personaliza tus informes y consultas fácilmente.
-https://wertymsd.github.io/xls2sage50/video-uso-sage50csv/,Como se puede fácilmente pasar ficheros EXCEL a SAGE50
+https://wertymsd.github.io/xls2sage50/Nueva%20carpeta/CAPTURAS_CHECKLIST/,CAPTURAS PENDIENTES - XLS2SAGE50

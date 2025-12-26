@@ -7,11 +7,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Proceso de conversión a formato compatible desde Excel a importación de SAGE50">
+        <meta name="description" content="Cuando tienes licencia activa y conectividad con la API de SAGE50. Permite importar directamente y validar contra tablas reales.">
       
       
       
-        <link rel="canonical" href="https://wertymsd.github.io/xls2sage50/conversion-plantillas-formato-sage50/">
+        <link rel="canonical" href="https://wertymsd.github.io/xls2sage50/02_proceso_api/">
       
       
       
@@ -24,7 +24,7 @@
     
     
       
-        <title>Centralita IA Teamleader</title>
+        <title>Api SAGE Sales - Centralita IA Teamleader</title>
       
     
     
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              None
+              Api SAGE Sales
             
           </span>
         </div>
@@ -240,7 +240,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../castellano/inicio-rapido-xls2sage50.md" class="md-tabs__link">
+        <a href="../01_importar_datos/" class="md-tabs__link">
           
   
   
@@ -537,7 +537,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../castellano/inicio-rapido-xls2sage50.md" class="md-nav__link">
+      <a href="../01_importar_datos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Api SAGE Sales
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_proceso_api_sage50.md" class="md-nav__link">
         
   
   
@@ -565,19 +600,26 @@
   
   
     <li class="md-nav__item">
-      <a href="../castellano/api-teamleader.md" class="md-nav__link">
+      <a href="../03_proceso_csv/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    Api SAGE Sales
   
 
     
   </span>
   
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
   
 
       </a>
@@ -593,19 +635,26 @@
   
   
     <li class="md-nav__item">
-      <a href="../castellano/centralita-crm-ia-teamleader.md" class="md-nav__link">
+      <a href="../04_plantillas_mapeo/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    Api SAGE Sales
   
 
     
   </span>
   
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
   
 
       </a>
@@ -621,19 +670,26 @@
   
   
     <li class="md-nav__item">
-      <a href="../castellano/creacion-nuevo-registros-teamleader.md" class="md-nav__link">
+      <a href="../05_configuracion_preferencias/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    Api SAGE Sales
   
 
     
   </span>
   
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
   
 
       </a>
@@ -649,19 +705,26 @@
   
   
     <li class="md-nav__item">
-      <a href="../castellano/pantalla-configuracion-xls2sage50.md" class="md-nav__link">
+      <a href="../06_ayuda_y_atajos/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    Api SAGE Sales
   
 
     
   </span>
   
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
   
 
       </a>
@@ -677,19 +740,26 @@
   
   
     <li class="md-nav__item">
-      <a href="../castellano/App-Call-remoto.md" class="md-nav__link">
+      <a href="../07_problemas_comunes/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    Api SAGE Sales
   
 
     
   </span>
   
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
   
 
       </a>
@@ -738,15 +808,23 @@
 
 
 
-  <h1>Centralita IA Teamleader</h1>
+  <h1>Api SAGE Sales</h1>
 
-<div class="admonition alert">
-<p class="admonition-title">Opción Convertir</p>
-<p>El fichero se copiara en la carpeta <em>C:\Sage50</em></p>
-<p>Es posible trocear el fichero compatible con SAGE50 en paquete desde 500 registros.</p>
-</div>
-<p><img alt="" src="../REPOSITORIO_FICHEROS/registro_fichero_troceo.png" /></p>
-<blockquote></blockquote>
+<p>Estado de captura
+- Necesita tomarse manualmente desde la UI: guardar como <code>manual/capturas/02_proceso_api.png</code>.</p>
+<p>Cuándo usar
+- Cuando tienes licencia activa y conectividad con la API de SAGE50. Permite importar directamente y validar contra tablas reales.</p>
+<p>Pasos sugeridos
+1) Selecciona en la barra lateral “Proceso API”.
+2) Revisa el mapeo precargado (desde la pestaña Importar/Plantillas).
+3) Inicia el proceso: pulsa Importar por API (boton principal). Observa la barra de progreso y logs en tiempo real.
+4) Errores: las filas con error se registran en log y pueden guardarse en un Excel de errores.</p>
+<p>Consejos
+- Valida conexion antes (config.ini/licencia). Si falla, cambia al flujo CSV.
+- Usa plantillas .PREDEFINIDO para no rehacer mapeos.
+- Si hay campos desconocidos en SAGE50, ajusta el mapeo y reintenta.</p>
+<p>Coste/licencia
+- Toda accion que contacte con la API (validar campos, crear/actualizar registros) requiere licencia y cuotas del conector/API SAGE50.</p>
 
 
 
