@@ -6,27 +6,35 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Documentación del modo CSV de xls2sage50 para generar archivos CSV y SQL listos para importar manualmente en SAGE 50.">
       
       
       
+        <link rel="canonical" href="https://wertymsd.github.io/manual-xls2sage50/modo-csv/">
+      
+      
+        <link rel="prev" href="../modo-api/ejemplos/">
+      
+      
+        <link rel="next" href="conceptos/">
       
       
         
       
       
-      <link rel="icon" href="/manual-xls2sage50/img/hola.ico">
+      <link rel="icon" href="../img/hola.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Manual XLS2Sage50</title>
+        <title>Modo de Generación CSV - xls2sage50 - Manual XLS2Sage50</title>
       
     
     
-      <link rel="stylesheet" href="/manual-xls2sage50/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/manual-xls2sage50/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -45,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="/manual-xls2sage50/stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/manual-xls2sage50/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -81,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#modo-de-generacion-csv" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,9 +110,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="/manual-xls2sage50/." title="Manual XLS2Sage50" class="md-header__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
+    <a href=".." title="Manual XLS2Sage50" class="md-header__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
       
-  <img src="/manual-xls2sage50/img/hola.png" alt="logo">
+  <img src="../img/hola.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -116,7 +129,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Modo de Generación CSV - xls2sage50
             
           </span>
         </div>
@@ -218,7 +231,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/." class="md-tabs__link">
+        <a href=".." class="md-tabs__link">
           
   
   
@@ -257,7 +270,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/manual-xls2sage50/link-descarga.md" class="md-tabs__link">
+      <a href="../link-descarga.md" class="md-tabs__link">
         
   
   
@@ -278,7 +291,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/instalacion/" class="md-tabs__link">
+        <a href="../instalacion/" class="md-tabs__link">
           
   
   
@@ -300,7 +313,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/inicio-rapido/" class="md-tabs__link">
+        <a href="../inicio-rapido/" class="md-tabs__link">
           
   
   
@@ -322,7 +335,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/modo-api/" class="md-tabs__link">
+        <a href="../modo-api/" class="md-tabs__link">
           
   
   
@@ -340,11 +353,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/modo-csv/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -366,7 +381,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/plantillas/" class="md-tabs__link">
+        <a href="../plantillas/" class="md-tabs__link">
           
   
   
@@ -388,7 +403,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/interfaz-grafica/" class="md-tabs__link">
+        <a href="../interfaz-grafica/" class="md-tabs__link">
           
   
   
@@ -410,7 +425,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/linea-comandos/" class="md-tabs__link">
+        <a href="../linea-comandos/" class="md-tabs__link">
           
   
   
@@ -432,7 +447,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/configuracion/" class="md-tabs__link">
+        <a href="../configuracion/" class="md-tabs__link">
           
   
   
@@ -454,7 +469,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/solucion-problemas/" class="md-tabs__link">
+        <a href="../solucion-problemas/" class="md-tabs__link">
           
   
   
@@ -496,9 +511,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/manual-xls2sage50/." title="Manual XLS2Sage50" class="md-nav__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
+    <a href=".." title="Manual XLS2Sage50" class="md-nav__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
       
-  <img src="/manual-xls2sage50/img/hola.png" alt="logo">
+  <img src="../img/hola.png" alt="logo">
 
     </a>
     Manual XLS2Sage50
@@ -542,7 +557,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/." class="md-nav__link ">
+            <a href=".." class="md-nav__link ">
               
   
   
@@ -621,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido-xls2sage50.md" class="md-nav__link">
+      <a href="../inicio-rapido-xls2sage50.md" class="md-nav__link">
         
   
   
@@ -683,7 +698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/link-descarga.md" class="md-nav__link">
+      <a href="../link-descarga.md" class="md-nav__link">
         
   
   
@@ -743,7 +758,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/instalacion/" class="md-nav__link ">
+            <a href="../instalacion/" class="md-nav__link ">
               
   
   
@@ -794,7 +809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/requisitos/" class="md-nav__link">
+      <a href="../instalacion/requisitos/" class="md-nav__link">
         
   
   
@@ -822,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/instalacion/" class="md-nav__link">
+      <a href="../instalacion/instalacion/" class="md-nav__link">
         
   
   
@@ -857,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/configuracion-inicial/" class="md-nav__link">
+      <a href="../instalacion/configuracion-inicial/" class="md-nav__link">
         
   
   
@@ -892,7 +907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/verificacion/" class="md-nav__link">
+      <a href="../instalacion/verificacion/" class="md-nav__link">
         
   
   
@@ -965,7 +980,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/inicio-rapido/" class="md-nav__link ">
+            <a href="../inicio-rapido/" class="md-nav__link ">
               
   
   
@@ -1016,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido/primeros-pasos/" class="md-nav__link">
+      <a href="../inicio-rapido/primeros-pasos/" class="md-nav__link">
         
   
   
@@ -1051,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido/importacion-basica/" class="md-nav__link">
+      <a href="../inicio-rapido/importacion-basica/" class="md-nav__link">
         
   
   
@@ -1086,7 +1101,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido/ejemplo-practico/" class="md-nav__link">
+      <a href="../inicio-rapido/ejemplo-practico/" class="md-nav__link">
         
   
   
@@ -1163,7 +1178,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/modo-api/" class="md-nav__link ">
+            <a href="../modo-api/" class="md-nav__link ">
               
   
   
@@ -1214,7 +1229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/conceptos/" class="md-nav__link">
+      <a href="../modo-api/conceptos/" class="md-nav__link">
         
   
   
@@ -1242,7 +1257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/conexion/" class="md-nav__link">
+      <a href="../modo-api/conexion/" class="md-nav__link">
         
   
   
@@ -1277,7 +1292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/mapeo/" class="md-nav__link">
+      <a href="../modo-api/mapeo/" class="md-nav__link">
         
   
   
@@ -1312,7 +1327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/proceso/" class="md-nav__link">
+      <a href="../modo-api/proceso/" class="md-nav__link">
         
   
   
@@ -1347,7 +1362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/ejemplos/" class="md-nav__link">
+      <a href="../modo-api/ejemplos/" class="md-nav__link">
         
   
   
@@ -1379,6 +1394,8 @@
       
   
   
+    
+  
   
   
     
@@ -1400,22 +1417,23 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/modo-csv/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   
@@ -1440,13 +1458,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+              <label class="md-nav__link md-nav__link--active" for="__nav_7" id="__nav_7_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1466,7 +1484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csv/conceptos/" class="md-nav__link">
+      <a href="conceptos/" class="md-nav__link">
         
   
   
@@ -1494,7 +1512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csv/configuracion/" class="md-nav__link">
+      <a href="configuracion/" class="md-nav__link">
         
   
   
@@ -1522,7 +1540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csql/generacion-sql.md" class="md-nav__link">
+      <a href="../modo-csql/generacion-sql.md" class="md-nav__link">
         
   
   
@@ -1550,7 +1568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csv/importacion-manual/" class="md-nav__link">
+      <a href="importacion-manual/" class="md-nav__link">
         
   
   
@@ -1625,7 +1643,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/plantillas/" class="md-nav__link ">
+            <a href="../plantillas/" class="md-nav__link ">
               
   
   
@@ -1676,7 +1694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/crear/" class="md-nav__link">
+      <a href="../plantillas/crear/" class="md-nav__link">
         
   
   
@@ -1711,7 +1729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/usar/" class="md-nav__link">
+      <a href="../plantillas/usar/" class="md-nav__link">
         
   
   
@@ -1746,7 +1764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/editar/" class="md-nav__link">
+      <a href="../plantillas/editar/" class="md-nav__link">
         
   
   
@@ -1781,7 +1799,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/predefinidas/" class="md-nav__link">
+      <a href="../plantillas/predefinidas/" class="md-nav__link">
         
   
   
@@ -1858,7 +1876,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/interfaz-grafica/" class="md-nav__link ">
+            <a href="../interfaz-grafica/" class="md-nav__link ">
               
   
   
@@ -1909,7 +1927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/pantalla-principal.md" class="md-nav__link">
+      <a href="../interfaz-grafica/pantalla-principal.md" class="md-nav__link">
         
   
   
@@ -1937,7 +1955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/navegacion.md" class="md-nav__link">
+      <a href="../interfaz-grafica/navegacion.md" class="md-nav__link">
         
   
   
@@ -1965,7 +1983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/pestanha-api.md" class="md-nav__link">
+      <a href="../interfaz-grafica/pestanha-api.md" class="md-nav__link">
         
   
   
@@ -1993,7 +2011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/pestanha-csv.md" class="md-nav__link">
+      <a href="../interfaz-grafica/pestanha-csv.md" class="md-nav__link">
         
   
   
@@ -2021,7 +2039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/configuracion.md" class="md-nav__link">
+      <a href="../interfaz-grafica/configuracion.md" class="md-nav__link">
         
   
   
@@ -2087,7 +2105,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/linea-comandos/" class="md-nav__link ">
+            <a href="../linea-comandos/" class="md-nav__link ">
               
   
   
@@ -2138,7 +2156,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/linea-comandos/comandos/" class="md-nav__link">
+      <a href="../linea-comandos/comandos/" class="md-nav__link">
         
   
   
@@ -2173,7 +2191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/linea-comandos/automatizacion/" class="md-nav__link">
+      <a href="../linea-comandos/automatizacion/" class="md-nav__link">
         
   
   
@@ -2208,7 +2226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/linea-comandos/scripts-lotes/" class="md-nav__link">
+      <a href="../linea-comandos/scripts-lotes/" class="md-nav__link">
         
   
   
@@ -2283,7 +2301,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/configuracion/" class="md-nav__link ">
+            <a href="../configuracion/" class="md-nav__link ">
               
   
   
@@ -2327,7 +2345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/config-ini/" class="md-nav__link">
+      <a href="../configuracion/config-ini/" class="md-nav__link">
         
   
   
@@ -2362,7 +2380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/variables-entorno/" class="md-nav__link">
+      <a href="../configuracion/variables-entorno/" class="md-nav__link">
         
   
   
@@ -2397,7 +2415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/directorios/" class="md-nav__link">
+      <a href="../configuracion/directorios/" class="md-nav__link">
         
   
   
@@ -2432,7 +2450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/logs/" class="md-nav__link">
+      <a href="../configuracion/logs/" class="md-nav__link">
         
   
   
@@ -2500,7 +2518,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/solucion-problemas/" class="md-nav__link ">
+            <a href="../solucion-problemas/" class="md-nav__link ">
               
   
   
@@ -2551,7 +2569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/comunes/" class="md-nav__link">
+      <a href="../solucion-problemas/comunes/" class="md-nav__link">
         
   
   
@@ -2586,7 +2604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/errores-conexion/" class="md-nav__link">
+      <a href="../solucion-problemas/errores-conexion/" class="md-nav__link">
         
   
   
@@ -2621,7 +2639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/errores-importacion/" class="md-nav__link">
+      <a href="../solucion-problemas/errores-importacion/" class="md-nav__link">
         
   
   
@@ -2649,7 +2667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/soporte/" class="md-nav__link">
+      <a href="../solucion-problemas/soporte/" class="md-nav__link">
         
   
   
@@ -2701,6 +2719,132 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ventajas-del-modo-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ventajas del Modo CSV
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuando-usar-el-modo-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cuándo Usar el Modo CSV
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contenido-de-esta-seccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contenido de esta Sección
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flujo-de-trabajo-del-modo-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flujo de Trabajo del Modo CSV
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formatos-de-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formatos de Salida
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Formatos de Salida">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#archivos-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archivos CSV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scripts-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scripts SQL
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparacion-con-modo-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparación con Modo API
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivos-generados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archivos Generados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proximo-paso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Próximo Paso
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2713,8 +2857,228 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="modo-de-generacion-csv">Modo de Generación CSV<a class="headerlink" href="#modo-de-generacion-csv" title="Permanent link">&para;</a></h1>
+<p>El modo CSV genera archivos de texto CSV y scripts SQL que pueden importarse manualmente en SAGE 50. Es ideal cuando no tiene acceso a la API de SAGE 50.</p>
+<h2 id="ventajas-del-modo-csv">Ventajas del Modo CSV<a class="headerlink" href="#ventajas-del-modo-csv" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Ventaja</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Sin licencia API</strong></td>
+<td>No requiere licencia especial de SAGE 50</td>
+</tr>
+<tr>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Compatible con todas las versiones</strong></td>
+<td>Funciona con cualquier versión de SAGE 50</td>
+</tr>
+<tr>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Revisión previa</strong></td>
+<td>Permite revisar los datos antes de importar</td>
+</tr>
+<tr>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Control total</strong></td>
+<td>Usted decide cuándo y cómo importar</td>
+</tr>
+<tr>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Auditable</strong></td>
+<td>Los archivos generados sirven de auditoría</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cuando-usar-el-modo-csv">Cuándo Usar el Modo CSV<a class="headerlink" href="#cuando-usar-el-modo-csv" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Situaciones Ideales para Modo CSV</p>
+<ul>
+<li>No tiene licencia API de SAGE 50</li>
+<li>Prefiere revisar los datos antes de importar</li>
+<li>Su empresa requiere proceso de aprobación previo</li>
+<li>Importa datos con poca frecuencia</li>
+<li>Usa una versión antigua de SAGE 50</li>
+</ul>
+</div>
+<h2 id="contenido-de-esta-seccion">Contenido de esta Sección<a class="headerlink" href="#contenido-de-esta-seccion" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="conceptos/">Conceptos Básicos</a> - Arquitectura y funcionamiento</li>
+<li><a href="configuracion/">Configuración CSV</a> - Formatos y opciones de generación</li>
+<li><a href="generacion-sql/">Generación de SQL</a> - Scripts SQL para importación</li>
+<li><a href="importacion-manual/">Importación Manual</a> - Pasos para importar en SAGE 50</li>
+</ol>
+<h2 id="flujo-de-trabajo-del-modo-csv">Flujo de Trabajo del Modo CSV<a class="headerlink" href="#flujo-de-trabajo-del-modo-csv" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>flowchart LR
+    A[Archivo Excel] --&gt; B[xls2sage50]
+    B --&gt; C[Procesar Datos]
+    C --&gt; D[Generar CSV]
+    C --&gt; E[Generar SQL]
+    D --&gt; F[Revisar Archivos]
+    E --&gt; F
+    F --&gt; G[Abrir SAGE 50]
+    G --&gt; H[Importar Manualmente]
+    H --&gt; I[Verificar Resultados]</code></pre>
+<h2 id="formatos-de-salida">Formatos de Salida<a class="headerlink" href="#formatos-de-salida" title="Permanent link">&para;</a></h2>
+<p>El modo CSV puede generar dos tipos de archivos:</p>
+<h3 id="archivos-csv">Archivos CSV<a class="headerlink" href="#archivos-csv" title="Permanent link">&para;</a></h3>
+<p>Archivos de texto con valores separados por comas:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CodigoCliente,NombreCliente,NIF,Direccion,Poblacion,Provincia
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>CLI001,&quot;Juan Pérez SL&quot;,&quot;B12345678&quot;,&quot;C/ Mayor 1&quot;,&quot;Madrid&quot;,&quot;Madrid&quot;
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>CLI002,&quot;María López SA&quot;,&quot;A87654321&quot;,&quot;Av. Libertad 2&quot;,&quot;Barcelona&quot;,&quot;Barcelona&quot;
+</span></code></pre></div>
+<h3 id="scripts-sql">Scripts SQL<a class="headerlink" href="#scripts-sql" title="Permanent link">&para;</a></h3>
+<p>Archivos con sentencias SQL para importación directa:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NIF</span><span class="p">,</span><span class="w"> </span><span class="n">Direccion</span><span class="p">,</span><span class="w"> </span><span class="n">Poblacion</span><span class="p">,</span><span class="w"> </span><span class="n">Provincia</span><span class="p">)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI001&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Juan Pérez SL&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;B12345678&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;C/ Mayor 1&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Madrid&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Madrid&#39;</span><span class="p">);</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NIF</span><span class="p">,</span><span class="w"> </span><span class="n">Direccion</span><span class="p">,</span><span class="w"> </span><span class="n">Poblacion</span><span class="p">,</span><span class="w"> </span><span class="n">Provincia</span><span class="p">)</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI002&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;María López SA&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;A87654321&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Av. Libertad 2&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Barcelona&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Barcelona&#39;</span><span class="p">);</span>
+</span></code></pre></div>
+<h2 id="comparacion-con-modo-api">Comparación con Modo API<a class="headerlink" href="#comparacion-con-modo-api" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Modo CSV</th>
+<th>Modo API</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Licencia API</strong></td>
+<td>No necesaria</td>
+<td>Requerida</td>
+</tr>
+<tr>
+<td><strong>Intervención manual</strong></td>
+<td>Requerida</td>
+<td>Automática</td>
+</tr>
+<tr>
+<td><strong>Velocidad</strong></td>
+<td>Más lento</td>
+<td>Muy rápido</td>
+</tr>
+<tr>
+<td><strong>Validación</strong></td>
+<td>Posterior</td>
+<td>Inmediata</td>
+</tr>
+<tr>
+<td><strong>Ideal para</strong></td>
+<td>Importaciones ocasionales</td>
+<td>Importaciones frecuentes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="archivos-generados">Archivos Generados<a class="headerlink" href="#archivos-generados" title="Permanent link">&para;</a></h2>
+<p>xls2sage50 genera los siguientes archivos en la carpeta de salida:</p>
+<table>
+<thead>
+<tr>
+<th>Archivo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clientes.csv</code></td>
+<td>Archivo CSV con los datos</td>
+</tr>
+<tr>
+<td><code>clientes.sql</code></td>
+<td>Script SQL para importación</td>
+</tr>
+<tr>
+<td><code>importacion.log</code></td>
+<td>Registro del proceso</td>
+</tr>
+<tr>
+<td><code>errores.log</code></td>
+<td>Errores encontrados (si los hay)</td>
+</tr>
+</tbody>
+</table>
+<p>!!! note "Ubicación de Archivos**</p>
+<div class="language-text highlight"><pre><span></span><code>Los archivos se guardan en `%USERPROFILE%\Documents\xls2sage50\csv\` por defecto.
+</code></pre></div>
+<h2 id="proximo-paso">Próximo Paso<a class="headerlink" href="#proximo-paso" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="conceptos/">Conceptos Básicos</a> - Entienda cómo funciona el modo CSV</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        ¿Esta página le ha sido útil?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="Esta página es útil" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="La página necesita mejorar" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m-3.5-9A1.5 1.5 0 0 1 7 9.5 1.5 1.5 0 0 1 8.5 8 1.5 1.5 0 0 1 10 9.5 1.5 1.5 0 0 1 8.5 11M17 9.5a1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 14 9.5 1.5 1.5 0 0 1 15.5 8 1.5 1.5 0 0 1 17 9.5M16 14v2H8v-2z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Gracias por su opinión
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Gracias por su opinión. Trabajaremos para mejorarla
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -2850,12 +3214,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/manual-xls2sage50/", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow", "content.code.copy", "content.tabs.link"], "search": "/manual-xls2sage50/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"default": "stable", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="/manual-xls2sage50/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/manual-xls2sage50/javascripts/extra.js"></script>
+        <script src="../javascripts/extra.js"></script>
       
     
   </body>

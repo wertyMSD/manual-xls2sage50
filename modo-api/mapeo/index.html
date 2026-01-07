@@ -6,27 +6,35 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Aprenda a configurar el mapeo de campos entre su archivo Excel y los campos de SAGE 50. Incluye mapeo automático, manual y plantillas.">
       
       
       
+        <link rel="canonical" href="https://wertymsd.github.io/manual-xls2sage50/modo-api/mapeo/">
+      
+      
+        <link rel="prev" href="../conexion/">
+      
+      
+        <link rel="next" href="../proceso/">
       
       
         
       
       
-      <link rel="icon" href="/manual-xls2sage50/img/hola.ico">
+      <link rel="icon" href="../../img/hola.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Manual XLS2Sage50</title>
+        <title>Mapeo de Campos - Excel a SAGE 50 - Manual XLS2Sage50</title>
       
     
     
-      <link rel="stylesheet" href="/manual-xls2sage50/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/manual-xls2sage50/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -45,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="/manual-xls2sage50/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/manual-xls2sage50/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -81,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mapeo-de-campos" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,9 +110,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="/manual-xls2sage50/." title="Manual XLS2Sage50" class="md-header__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
+    <a href="../.." title="Manual XLS2Sage50" class="md-header__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
       
-  <img src="/manual-xls2sage50/img/hola.png" alt="logo">
+  <img src="../../img/hola.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -116,7 +129,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Mapeo de Campos - Excel a SAGE 50
             
           </span>
         </div>
@@ -218,7 +231,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/." class="md-tabs__link">
+        <a href="../.." class="md-tabs__link">
           
   
   
@@ -257,7 +270,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/manual-xls2sage50/link-descarga.md" class="md-tabs__link">
+      <a href="../../link-descarga.md" class="md-tabs__link">
         
   
   
@@ -278,7 +291,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/instalacion/" class="md-tabs__link">
+        <a href="../../instalacion/" class="md-tabs__link">
           
   
   
@@ -300,7 +313,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/inicio-rapido/" class="md-tabs__link">
+        <a href="../../inicio-rapido/" class="md-tabs__link">
           
   
   
@@ -318,11 +331,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/modo-api/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -344,7 +359,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/modo-csv/" class="md-tabs__link">
+        <a href="../../modo-csv/" class="md-tabs__link">
           
   
   
@@ -366,7 +381,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/plantillas/" class="md-tabs__link">
+        <a href="../../plantillas/" class="md-tabs__link">
           
   
   
@@ -388,7 +403,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/interfaz-grafica/" class="md-tabs__link">
+        <a href="../../interfaz-grafica/" class="md-tabs__link">
           
   
   
@@ -410,7 +425,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/linea-comandos/" class="md-tabs__link">
+        <a href="../../linea-comandos/" class="md-tabs__link">
           
   
   
@@ -432,7 +447,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/configuracion/" class="md-tabs__link">
+        <a href="../../configuracion/" class="md-tabs__link">
           
   
   
@@ -454,7 +469,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/manual-xls2sage50/solucion-problemas/" class="md-tabs__link">
+        <a href="../../solucion-problemas/" class="md-tabs__link">
           
   
   
@@ -496,9 +511,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/manual-xls2sage50/." title="Manual XLS2Sage50" class="md-nav__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
+    <a href="../.." title="Manual XLS2Sage50" class="md-nav__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
       
-  <img src="/manual-xls2sage50/img/hola.png" alt="logo">
+  <img src="../../img/hola.png" alt="logo">
 
     </a>
     Manual XLS2Sage50
@@ -542,7 +557,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/." class="md-nav__link ">
+            <a href="../.." class="md-nav__link ">
               
   
   
@@ -621,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido-xls2sage50.md" class="md-nav__link">
+      <a href="../../inicio-rapido-xls2sage50.md" class="md-nav__link">
         
   
   
@@ -683,7 +698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/link-descarga.md" class="md-nav__link">
+      <a href="../../link-descarga.md" class="md-nav__link">
         
   
   
@@ -743,7 +758,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/instalacion/" class="md-nav__link ">
+            <a href="../../instalacion/" class="md-nav__link ">
               
   
   
@@ -794,7 +809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/requisitos/" class="md-nav__link">
+      <a href="../../instalacion/requisitos/" class="md-nav__link">
         
   
   
@@ -822,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/instalacion/" class="md-nav__link">
+      <a href="../../instalacion/instalacion/" class="md-nav__link">
         
   
   
@@ -857,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/configuracion-inicial/" class="md-nav__link">
+      <a href="../../instalacion/configuracion-inicial/" class="md-nav__link">
         
   
   
@@ -892,7 +907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/instalacion/verificacion/" class="md-nav__link">
+      <a href="../../instalacion/verificacion/" class="md-nav__link">
         
   
   
@@ -965,7 +980,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/inicio-rapido/" class="md-nav__link ">
+            <a href="../../inicio-rapido/" class="md-nav__link ">
               
   
   
@@ -1016,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido/primeros-pasos/" class="md-nav__link">
+      <a href="../../inicio-rapido/primeros-pasos/" class="md-nav__link">
         
   
   
@@ -1051,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido/importacion-basica/" class="md-nav__link">
+      <a href="../../inicio-rapido/importacion-basica/" class="md-nav__link">
         
   
   
@@ -1086,7 +1101,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/inicio-rapido/ejemplo-practico/" class="md-nav__link">
+      <a href="../../inicio-rapido/ejemplo-practico/" class="md-nav__link">
         
   
   
@@ -1125,6 +1140,8 @@
       
   
   
+    
+  
   
   
     
@@ -1148,22 +1165,23 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/modo-api/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -1188,13 +1206,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1214,7 +1232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/conceptos/" class="md-nav__link">
+      <a href="../conceptos/" class="md-nav__link">
         
   
   
@@ -1242,7 +1260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/conexion/" class="md-nav__link">
+      <a href="../conexion/" class="md-nav__link">
         
   
   
@@ -1274,10 +1292,44 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/mapeo/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapeo de Campos
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1300,6 +1352,371 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-de-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conceptos de Mapeo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conceptos de Mapeo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-el-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Qué es el Mapeo?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-del-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elementos del Mapeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeo-automatico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapeo Automático
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mapeo Automático">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#algoritmo-de-deteccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Algoritmo de Detección
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabla-de-sinonimos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabla de Sinónimos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeo-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapeo Manual
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mapeo Manual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editor-de-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editor de Mapeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasos-para-mapear-manualmente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pasos para Mapear Manualmente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campos-obligatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos Obligatorios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transformaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transformaciones
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transformaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-transformacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipos de Transformación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configurar-transformaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurar Transformaciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campos-calculados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos Calculados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Campos Calculados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplos-de-campos-calculados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplos de Campos Calculados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validaciones
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Validaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-validacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipos de Validación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-validar-nif" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo: Validar NIF
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guardar-mapeo-como-plantilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Guardar Mapeo como Plantilla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeos-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapeos Comunes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mapeos Comunes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importacion-de-clientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importación de Clientes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importacion-de-articulos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importación de Artículos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importacion-de-asientos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importación de Asientos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemas-comunes-de-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problemas Comunes de Mapeo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problemas Comunes de Mapeo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema-columna-no-reconocida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema: Columna No Reconocida
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problema-tipo-de-dato-incorrecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema: Tipo de Dato Incorrecto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proximo-paso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Próximo Paso
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1312,7 +1729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/proceso/" class="md-nav__link">
+      <a href="../proceso/" class="md-nav__link">
         
   
   
@@ -1347,7 +1764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-api/ejemplos/" class="md-nav__link">
+      <a href="../ejemplos/" class="md-nav__link">
         
   
   
@@ -1415,7 +1832,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/modo-csv/" class="md-nav__link ">
+            <a href="../../modo-csv/" class="md-nav__link ">
               
   
   
@@ -1466,7 +1883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csv/conceptos/" class="md-nav__link">
+      <a href="../../modo-csv/conceptos/" class="md-nav__link">
         
   
   
@@ -1494,7 +1911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csv/configuracion/" class="md-nav__link">
+      <a href="../../modo-csv/configuracion/" class="md-nav__link">
         
   
   
@@ -1522,7 +1939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csql/generacion-sql.md" class="md-nav__link">
+      <a href="../../modo-csql/generacion-sql.md" class="md-nav__link">
         
   
   
@@ -1550,7 +1967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/modo-csv/importacion-manual/" class="md-nav__link">
+      <a href="../../modo-csv/importacion-manual/" class="md-nav__link">
         
   
   
@@ -1625,7 +2042,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/plantillas/" class="md-nav__link ">
+            <a href="../../plantillas/" class="md-nav__link ">
               
   
   
@@ -1676,7 +2093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/crear/" class="md-nav__link">
+      <a href="../../plantillas/crear/" class="md-nav__link">
         
   
   
@@ -1711,7 +2128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/usar/" class="md-nav__link">
+      <a href="../../plantillas/usar/" class="md-nav__link">
         
   
   
@@ -1746,7 +2163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/editar/" class="md-nav__link">
+      <a href="../../plantillas/editar/" class="md-nav__link">
         
   
   
@@ -1781,7 +2198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/plantillas/predefinidas/" class="md-nav__link">
+      <a href="../../plantillas/predefinidas/" class="md-nav__link">
         
   
   
@@ -1858,7 +2275,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/interfaz-grafica/" class="md-nav__link ">
+            <a href="../../interfaz-grafica/" class="md-nav__link ">
               
   
   
@@ -1909,7 +2326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/pantalla-principal.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/pantalla-principal.md" class="md-nav__link">
         
   
   
@@ -1937,7 +2354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/navegacion.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/navegacion.md" class="md-nav__link">
         
   
   
@@ -1965,7 +2382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/pestanha-api.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/pestanha-api.md" class="md-nav__link">
         
   
   
@@ -1993,7 +2410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/pestanha-csv.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/pestanha-csv.md" class="md-nav__link">
         
   
   
@@ -2021,7 +2438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/interfaz-grafica/configuracion.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/configuracion.md" class="md-nav__link">
         
   
   
@@ -2087,7 +2504,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/linea-comandos/" class="md-nav__link ">
+            <a href="../../linea-comandos/" class="md-nav__link ">
               
   
   
@@ -2138,7 +2555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/linea-comandos/comandos/" class="md-nav__link">
+      <a href="../../linea-comandos/comandos/" class="md-nav__link">
         
   
   
@@ -2173,7 +2590,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/linea-comandos/automatizacion/" class="md-nav__link">
+      <a href="../../linea-comandos/automatizacion/" class="md-nav__link">
         
   
   
@@ -2208,7 +2625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/linea-comandos/scripts-lotes/" class="md-nav__link">
+      <a href="../../linea-comandos/scripts-lotes/" class="md-nav__link">
         
   
   
@@ -2283,7 +2700,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/configuracion/" class="md-nav__link ">
+            <a href="../../configuracion/" class="md-nav__link ">
               
   
   
@@ -2327,7 +2744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/config-ini/" class="md-nav__link">
+      <a href="../../configuracion/config-ini/" class="md-nav__link">
         
   
   
@@ -2362,7 +2779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/variables-entorno/" class="md-nav__link">
+      <a href="../../configuracion/variables-entorno/" class="md-nav__link">
         
   
   
@@ -2397,7 +2814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/directorios/" class="md-nav__link">
+      <a href="../../configuracion/directorios/" class="md-nav__link">
         
   
   
@@ -2432,7 +2849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/configuracion/logs/" class="md-nav__link">
+      <a href="../../configuracion/logs/" class="md-nav__link">
         
   
   
@@ -2500,7 +2917,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/manual-xls2sage50/solucion-problemas/" class="md-nav__link ">
+            <a href="../../solucion-problemas/" class="md-nav__link ">
               
   
   
@@ -2551,7 +2968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/comunes/" class="md-nav__link">
+      <a href="../../solucion-problemas/comunes/" class="md-nav__link">
         
   
   
@@ -2586,7 +3003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/errores-conexion/" class="md-nav__link">
+      <a href="../../solucion-problemas/errores-conexion/" class="md-nav__link">
         
   
   
@@ -2621,7 +3038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/errores-importacion/" class="md-nav__link">
+      <a href="../../solucion-problemas/errores-importacion/" class="md-nav__link">
         
   
   
@@ -2649,7 +3066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/manual-xls2sage50/solucion-problemas/soporte/" class="md-nav__link">
+      <a href="../../solucion-problemas/soporte/" class="md-nav__link">
         
   
   
@@ -2701,6 +3118,361 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-de-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conceptos de Mapeo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conceptos de Mapeo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-el-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Qué es el Mapeo?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-del-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elementos del Mapeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeo-automatico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapeo Automático
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mapeo Automático">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#algoritmo-de-deteccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Algoritmo de Detección
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabla-de-sinonimos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabla de Sinónimos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeo-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapeo Manual
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mapeo Manual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editor-de-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editor de Mapeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasos-para-mapear-manualmente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pasos para Mapear Manualmente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campos-obligatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos Obligatorios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transformaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transformaciones
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transformaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-transformacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipos de Transformación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configurar-transformaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurar Transformaciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campos-calculados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos Calculados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Campos Calculados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplos-de-campos-calculados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplos de Campos Calculados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validaciones
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Validaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-validacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipos de Validación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-validar-nif" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo: Validar NIF
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guardar-mapeo-como-plantilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Guardar Mapeo como Plantilla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeos-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapeos Comunes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mapeos Comunes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importacion-de-clientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importación de Clientes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importacion-de-articulos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importación de Artículos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importacion-de-asientos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importación de Asientos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemas-comunes-de-mapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problemas Comunes de Mapeo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problemas Comunes de Mapeo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema-columna-no-reconocida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema: Columna No Reconocida
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problema-tipo-de-dato-incorrecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema: Tipo de Dato Incorrecto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proximo-paso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Próximo Paso
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2713,8 +3485,528 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="mapeo-de-campos">Mapeo de Campos<a class="headerlink" href="#mapeo-de-campos" title="Permanent link">&para;</a></h1>
+<p>El mapeo de campos es el proceso de relacionar las columnas de su archivo Excel con los campos de SAGE 50. Un mapeo correcto es esencial para una importación exitosa.</p>
+<h2 id="conceptos-de-mapeo">Conceptos de Mapeo<a class="headerlink" href="#conceptos-de-mapeo" title="Permanent link">&para;</a></h2>
+<h3 id="que-es-el-mapeo">¿Qué es el Mapeo?<a class="headerlink" href="#que-es-el-mapeo" title="Permanent link">&para;</a></h3>
+<p>El mapeo establece una relación entre:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Columna Excel  →  Campo SAGE 50
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>     ↓                        ↓
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>   &quot;NOMBRE&quot;       →      &quot;NombreCliente&quot;
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>   &quot;DIRECCION&quot;    →      &quot;Direccion&quot;
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>   &quot;TELEFONO&quot;     →      &quot;Telefono1&quot;
+</span></code></pre></div>
+<h3 id="elementos-del-mapeo">Elementos del Mapeo<a class="headerlink" href="#elementos-del-mapeo" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Columna origen</strong></td>
+<td>Nombre de la columna en el archivo Excel</td>
+</tr>
+<tr>
+<td><strong>Campo destino</strong></td>
+<td>Nombre del campo en SAGE 50</td>
+</tr>
+<tr>
+<td><strong>Transformación</strong></td>
+<td>Conversión de formato (opcional)</td>
+</tr>
+<tr>
+<td><strong>Validación</strong></td>
+<td>Regla de validación del campo (opcional)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mapeo-automatico">Mapeo Automático<a class="headerlink" href="#mapeo-automatico" title="Permanent link">&para;</a></h2>
+<p>xls2sage50 intenta detectar automáticamente el mapeo:</p>
+<h3 id="algoritmo-de-deteccion">Algoritmo de Detección<a class="headerlink" href="#algoritmo-de-deteccion" title="Permanent link">&para;</a></h3>
+<p>La aplicación utiliza:</p>
+<ol>
+<li><strong>Similitud de nombres:</strong> Coincidencia aproximada de nombres</li>
+<li><strong>Sinónimos conocidos:</strong> Tabla de equivalencias comunes</li>
+<li><strong>Posición relativa:</strong> Orden típico de columnas</li>
+</ol>
+<h3 id="tabla-de-sinonimos">Tabla de Sinónimos<a class="headerlink" href="#tabla-de-sinonimos" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Columna Excel</th>
+<th>Campo SAGE 50</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NOMBRE, Nombre, Razón Social</td>
+<td>NombreCliente</td>
+</tr>
+<tr>
+<td>CIF, NIF, DNI, Identificacion</td>
+<td>NIF</td>
+</tr>
+<tr>
+<td>DIRECCION, Dir, Domicilio</td>
+<td>Direccion</td>
+</tr>
+<tr>
+<td>POBLACION, Ciudad, Localidad</td>
+<td>Poblacion</td>
+</tr>
+<tr>
+<td>CP, Codigo Postal, Postal</td>
+<td>CodigoPostal</td>
+</tr>
+<tr>
+<td>PROVINCIA, Prov</td>
+<td>Provincia</td>
+</tr>
+<tr>
+<td>TELEFONO, Tel, Tlf</td>
+<td>Telefono1</td>
+</tr>
+<tr>
+<td>EMAIL, E-mail, Correo</td>
+<td>Email</td>
+</tr>
+<tr>
+<td>CODIGO, Codigo, Cod, Ref</td>
+<td>CodigoCliente</td>
+</tr>
+</tbody>
+</table>
+<p>!!! tip "Use Nombres Descriptivos**</p>
+<div class="language-text highlight"><pre><span></span><code>Para mejorar el mapeo automático, use nombres de columnas claros y descriptivos en sus archivos Excel.
+</code></pre></div>
+<h2 id="mapeo-manual">Mapeo Manual<a class="headerlink" href="#mapeo-manual" title="Permanent link">&para;</a></h2>
+<p>Cuando el mapeo automático no es suficiente, puede configurarlo manualmente.</p>
+<h3 id="editor-de-mapeo">Editor de Mapeo<a class="headerlink" href="#editor-de-mapeo" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Cargue el archivo Excel en xls2sage50</li>
+<li>Haga clic en <strong>"Editar Mapeo"</strong></li>
+<li>Configure cada columna</li>
+</ol>
+<p><img alt="Editor de mapeo" src="img:mapeo-editor.png" /></p>
+<h3 id="pasos-para-mapear-manualmente">Pasos para Mapear Manualmente<a class="headerlink" href="#pasos-para-mapear-manualmente" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Seleccione la columna Excel</strong> que desea mapear</li>
+<li><strong>Elija el campo SAGE 50</strong> correspondiente del desplegable</li>
+<li><strong>Configure transformaciones</strong> si es necesario</li>
+<li><strong>Haga clic en "Agregar"</strong> para añadir el mapeo</li>
+<li><strong>Repita</strong> para cada columna</li>
+</ol>
+<h3 id="campos-obligatorios">Campos Obligatorios<a class="headerlink" href="#campos-obligatorios" title="Permanent link">&para;</a></h3>
+<p>Algunos campos de SAGE 50 son obligatorios y deben mapearse:</p>
+<table>
+<thead>
+<tr>
+<th>Entidad</th>
+<th>Campos Obligatorios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Clientes</strong></td>
+<td>CodigoCliente, Nombre</td>
+</tr>
+<tr>
+<td><strong>Proveedores</strong></td>
+<td>CodigoProveedor, Nombre</td>
+</tr>
+<tr>
+<td><strong>Artículos</strong></td>
+<td>CodigoArticulo, Descripcion</td>
+</tr>
+<tr>
+<td><strong>Asientos</strong></td>
+<td>Fecha, Cuenta, Importe</td>
+</tr>
+</tbody>
+</table>
+<p>!!! warning "Campos Obligatorios**</p>
+<div class="language-text highlight"><pre><span></span><code>Si no mapea todos los campos obligatorios, la importación fallará con un error de validación.
+</code></pre></div>
+<h2 id="transformaciones">Transformaciones<a class="headerlink" href="#transformaciones" title="Permanent link">&para;</a></h2>
+<p>Las transformaciones permiten modificar el formato de los datos durante la importación.</p>
+<h3 id="tipos-de-transformacion">Tipos de Transformación<a class="headerlink" href="#tipos-de-transformacion" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Transformación</th>
+<th>Ejemplo Entrada</th>
+<th>Ejemplo Salida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mayúsculas</strong></td>
+<td>Juan Pérez</td>
+<td>JUAN PÉREZ</td>
+</tr>
+<tr>
+<td><strong>Minúsculas</strong></td>
+<td>JUAN PÉREZ</td>
+<td>juan pérez</td>
+</tr>
+<tr>
+<td><strong>Recortar</strong></td>
+<td>" texto "</td>
+<td>texto</td>
+</tr>
+<tr>
+<td><strong>Reemplazar</strong></td>
+<td>123-456-789</td>
+<td>123456789</td>
+</tr>
+<tr>
+<td><strong>Formato fecha</strong></td>
+<td>01/02/2024</td>
+<td>2024-02-01</td>
+</tr>
+</tbody>
+</table>
+<h3 id="configurar-transformaciones">Configurar Transformaciones<a class="headerlink" href="#configurar-transformaciones" title="Permanent link">&para;</a></h3>
+<p>En el editor de mapeo:</p>
+<ol>
+<li>Seleccione el campo a transformar</li>
+<li>Haga clic en <strong>"Agregar Transformación"</strong></li>
+<li>Seleccione el tipo de transformación</li>
+<li>Configure los parámetros</li>
+<li>Haga clic en <strong>"Aceptar"</strong></li>
+</ol>
+<h2 id="campos-calculados">Campos Calculados<a class="headerlink" href="#campos-calculados" title="Permanent link">&para;</a></h2>
+<p>Los campos calculados permiten generar valores a partir de otros campos:</p>
+<h3 id="ejemplos-de-campos-calculados">Ejemplos de Campos Calculados<a class="headerlink" href="#ejemplos-de-campos-calculados" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Fórmula</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nombre completo</strong></td>
+<td>NOMBRE + " " + APELLIDOS</td>
+<td>Concatenación</td>
+</tr>
+<tr>
+<td><strong>Código concatenado</strong></td>
+<td>PREFIJO + "-" + NUMERO</td>
+<td>Con separador</td>
+</tr>
+<tr>
+<td><strong>Precio con IVA</strong></td>
+<td>PRECIO * 1.21</td>
+<td>Cálculo matemático</td>
+</tr>
+</tbody>
+</table>
+<p>!!! tip "Use Campos Calculados**</p>
+<div class="language-text highlight"><pre><span></span><code>Los campos calculados le permiten derivar información sin modificar el archivo Excel original.
+</code></pre></div>
+<h2 id="validaciones">Validaciones<a class="headerlink" href="#validaciones" title="Permanent link">&para;</a></h2>
+<p>Configure reglas de validación para cada campo mapeado:</p>
+<h3 id="tipos-de-validacion">Tipos de Validación<a class="headerlink" href="#tipos-de-validacion" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Validación</th>
+<th>Descripción</th>
+<th>Parámetros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Longitud</strong></td>
+<td>Número de caracteres</td>
+<td>Mín, Máx</td>
+</tr>
+<tr>
+<td><strong>Rango</strong></td>
+<td>Valor numérico en rango</td>
+<td>Mín, Máx</td>
+</tr>
+<tr>
+<td><strong>Lista</strong></td>
+<td>Valor en lista permitida</td>
+<td>Valores</td>
+</tr>
+<tr>
+<td><strong>Expresión regular</strong></td>
+<td>Formato específico</td>
+<td>Patrón</td>
+</tr>
+<tr>
+<td><strong>Único</strong></td>
+<td>Sin duplicados</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ejemplo-validar-nif">Ejemplo: Validar NIF<a class="headerlink" href="#ejemplo-validar-nif" title="Permanent link">&para;</a></h3>
+<p>Para validar el formato del NIF:</p>
+<ol>
+<li>Seleccione el campo NIF en el mapeo</li>
+<li>Haga clic en <strong>"Agregar Validación"</strong></li>
+<li>Seleccione <strong>"Expresión regular"</strong></li>
+<li>Ingrese el patrón: <code>^[0-9]{8}[A-Za-z]$</code></li>
+<li>Haga clic en <strong>"Aceptar"</strong></li>
+</ol>
+<h2 id="guardar-mapeo-como-plantilla">Guardar Mapeo como Plantilla<a class="headerlink" href="#guardar-mapeo-como-plantilla" title="Permanent link">&para;</a></h2>
+<p>Para reutilizar el mapeo en futuras importaciones:</p>
+<ol>
+<li>Configure el mapeo completo</li>
+<li>Haga clic en <strong>"Guardar como Plantilla"</strong></li>
+<li>Asigne un nombre descriptivo</li>
+<li>Añada una descripción opcional</li>
+<li>Haga clic en <strong>"Guardar"</strong></li>
+</ol>
+<p>!!! tip "Nombres Descriptivos de Plantillas**</p>
+<div class="language-text highlight"><pre><span></span><code>Use nombres que describan el tipo de importación, como &quot;Clientes_Mensual&quot; o &quot;Artículos_Precios&quot;.
+</code></pre></div>
+<h2 id="mapeos-comunes">Mapeos Comunes<a class="headerlink" href="#mapeos-comunes" title="Permanent link">&para;</a></h2>
+<h3 id="importacion-de-clientes">Importación de Clientes<a class="headerlink" href="#importacion-de-clientes" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Columna Excel</th>
+<th>Campo SAGE 50</th>
+<th>Obligatorio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CODIGO</td>
+<td>CodigoCliente</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td>NOMBRE</td>
+<td>NombreCliente</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td>NIF</td>
+<td>NIF</td>
+<td>No</td>
+</tr>
+<tr>
+<td>DIRECCION</td>
+<td>Direccion</td>
+<td>No</td>
+</tr>
+<tr>
+<td>POBLACION</td>
+<td>Poblacion</td>
+<td>No</td>
+</tr>
+<tr>
+<td>PROVINCIA</td>
+<td>Provincia</td>
+<td>No</td>
+</tr>
+<tr>
+<td>CP</td>
+<td>CodigoPostal</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TELEFONO</td>
+<td>Telefono1</td>
+<td>No</td>
+</tr>
+<tr>
+<td>EMAIL</td>
+<td>Email</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="importacion-de-articulos">Importación de Artículos<a class="headerlink" href="#importacion-de-articulos" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Columna Excel</th>
+<th>Campo SAGE 50</th>
+<th>Obligatorio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CODIGO</td>
+<td>CodigoArticulo</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td>DESCRIPCION</td>
+<td>Descripcion</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td>PRECIO</td>
+<td>PrecioVenta</td>
+<td>No</td>
+</tr>
+<tr>
+<td>COSTE</td>
+<td>PrecioCoste</td>
+<td>No</td>
+</tr>
+<tr>
+<td>STOCK</td>
+<td>StockActual</td>
+<td>No</td>
+</tr>
+<tr>
+<td>FAMILIA</td>
+<td>Familia</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IVA</td>
+<td>TipoIVA</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="importacion-de-asientos">Importación de Asientos<a class="headerlink" href="#importacion-de-asientos" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Columna Excel</th>
+<th>Campo SAGE 50</th>
+<th>Obligatorio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FECHA</td>
+<td>Fecha</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td>CUENTA</td>
+<td>Cuenta</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td>CONCEPTO</td>
+<td>Concepto</td>
+<td>No</td>
+</tr>
+<tr>
+<td>DEBE</td>
+<td>ImporteDebe</td>
+<td>No</td>
+</tr>
+<tr>
+<td>HABER</td>
+<td>ImporteHaber</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="problemas-comunes-de-mapeo">Problemas Comunes de Mapeo<a class="headerlink" href="#problemas-comunes-de-mapeo" title="Permanent link">&para;</a></h2>
+<h3 id="problema-columna-no-reconocida">Problema: Columna No Reconocida<a class="headerlink" href="#problema-columna-no-reconocida" title="Permanent link">&para;</a></h3>
+<div class="admonition error">
+<p class="admonition-title">Columna no reconocida</p>
+<p><strong>Causa:</strong> El nombre de la columna no coincide con ningún campo conocido</p>
+<p><strong>Solución:</strong>
+- Verifique que el nombre está escrito correctamente
+- Use el mapeo manual para asignar el campo
+- Añada un sinónimo a la tabla</p>
+</div>
+<h3 id="problema-tipo-de-dato-incorrecto">Problema: Tipo de Dato Incorrecto<a class="headerlink" href="#problema-tipo-de-dato-incorrecto" title="Permanent link">&para;</a></h3>
+<div class="admonition error">
+<p class="admonition-title">Tipo de dato incorrecto</p>
+<p><strong>Causa:</strong> El tipo de dato de Excel no coincide con el esperado por SAGE 50</p>
+<p><strong>Solución:</strong>
+- Verifique el formato de las celdas en Excel
+- Use una transformación para convertir el tipo
+- Asegúrese de que los números no tengan texto</p>
+</div>
+<h2 id="proximo-paso">Próximo Paso<a class="headerlink" href="#proximo-paso" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../proceso/">Proceso de Importación</a> - Ejecute la importación con el mapeo configurado</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        ¿Esta página le ha sido útil?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="Esta página es útil" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="La página necesita mejorar" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m-3.5-9A1.5 1.5 0 0 1 7 9.5 1.5 1.5 0 0 1 8.5 8 1.5 1.5 0 0 1 10 9.5 1.5 1.5 0 0 1 8.5 11M17 9.5a1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 14 9.5 1.5 1.5 0 0 1 15.5 8 1.5 1.5 0 0 1 17 9.5M16 14v2H8v-2z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Gracias por su opinión
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Gracias por su opinión. Trabajaremos para mejorarla
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
               </article>
             </div>
           
@@ -2850,12 +4142,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/manual-xls2sage50/", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow", "content.code.copy", "content.tabs.link"], "search": "/manual-xls2sage50/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"default": "stable", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="/manual-xls2sage50/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/manual-xls2sage50/javascripts/extra.js"></script>
+        <script src="../../javascripts/extra.js"></script>
       
     
   </body>

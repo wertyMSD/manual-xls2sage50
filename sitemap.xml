@@ -2,50 +2,170 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://wertymsd.github.io/manual-xls2sage50/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/01_importar_datos/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/imagenes/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/02_proceso_api/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/configuracion/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/03_proceso_csv/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/configuracion/config-ini/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/04_plantillas_mapeo/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/configuracion/directorios/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/05_configuracion_preferencias/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/configuracion/logs/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/06_ayuda_y_atajos/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/configuracion/variables-entorno/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/07_problemas_comunes/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/inicio-rapido/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/conexion-con-sage50/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/inicio-rapido/ejemplo-practico/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/inicio-rapido-xls2sage50/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/inicio-rapido/importacion-basica/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/link-descarga/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/inicio-rapido/primeros-pasos/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
     <url>
-         <loc>https://wertymsd.github.io/manual-xls2sage50/video-uso-xls2sage50/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/instalacion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/instalacion/configuracion-inicial/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/instalacion/instalacion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/instalacion/requisitos/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/instalacion/verificacion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/interfaz-grafica/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/linea-comandos/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/linea-comandos/automatizacion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/linea-comandos/comandos/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/linea-comandos/scripts-lotes/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-api/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-api/conceptos/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-api/conexion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-api/ejemplos/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-api/mapeo/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-api/proceso/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-csv/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-csv/conceptos/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-csv/configuracion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-csv/generacion-sql/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/modo-csv/importacion-manual/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/plantillas/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/plantillas/crear/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/plantillas/editar/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/plantillas/predefinidas/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/plantillas/usar/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/solucion-problemas/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/solucion-problemas/comunes/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/solucion-problemas/errores-conexion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/solucion-problemas/errores-importacion/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://wertymsd.github.io/manual-xls2sage50/solucion-problemas/soporte/</loc>
+         <lastmod>2026-01-07</lastmod>
     </url>
 </urlset>

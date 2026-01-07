@@ -6,33 +6,31 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="xls2sage50 es una herramienta profesional para importar datos desde archivos Excel hacia SAGE 50. Soporta importación directa por API y generación de archivos CSV/SQL. Compatible con Windows.">
+        <meta name="description" content="Aprenda a generar scripts SQL con sentencias INSERT para importar datos directamente en la base de datos de SAGE 50.">
       
       
       
-        <link rel="canonical" href="https://wertymsd.github.io/manual-xls2sage50/">
+        <link rel="canonical" href="https://wertymsd.github.io/manual-xls2sage50/modo-csv/generacion-sql/">
       
       
-      
-        <link rel="next" href="instalacion/">
       
       
         
       
       
-      <link rel="icon" href="img/hola.ico">
+      <link rel="icon" href="../../img/hola.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>xls2sage50 - Importación de Excel a SAGE 50 - Manual XLS2Sage50</title>
+        <title>Generación de SQL en Modo CSV - Manual XLS2Sage50</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -88,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bienvenido-a-xls2sage50" class="md-skip">
+        <a href="#generacion-de-sql" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -108,9 +106,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="." title="Manual XLS2Sage50" class="md-header__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
+    <a href="../.." title="Manual XLS2Sage50" class="md-header__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
       
-  <img src="img/hola.png" alt="logo">
+  <img src="../../img/hola.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              xls2sage50 - Importación de Excel a SAGE 50
+              Generación de SQL en Modo CSV
             
           </span>
         </div>
@@ -225,13 +223,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="." class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
           
   
   
@@ -270,7 +266,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="link-descarga.md" class="md-tabs__link">
+      <a href="../../link-descarga.md" class="md-tabs__link">
         
   
   
@@ -291,7 +287,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="instalacion/" class="md-tabs__link">
+        <a href="../../instalacion/" class="md-tabs__link">
           
   
   
@@ -313,7 +309,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="inicio-rapido/" class="md-tabs__link">
+        <a href="../../inicio-rapido/" class="md-tabs__link">
           
   
   
@@ -335,7 +331,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="modo-api/" class="md-tabs__link">
+        <a href="../../modo-api/" class="md-tabs__link">
           
   
   
@@ -357,7 +353,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="modo-csv/" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -379,7 +375,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="plantillas/" class="md-tabs__link">
+        <a href="../../plantillas/" class="md-tabs__link">
           
   
   
@@ -401,7 +397,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="interfaz-grafica/" class="md-tabs__link">
+        <a href="../../interfaz-grafica/" class="md-tabs__link">
           
   
   
@@ -423,7 +419,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="linea-comandos/" class="md-tabs__link">
+        <a href="../../linea-comandos/" class="md-tabs__link">
           
   
   
@@ -445,7 +441,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="configuracion/" class="md-tabs__link">
+        <a href="../../configuracion/" class="md-tabs__link">
           
   
   
@@ -467,7 +463,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="solucion-problemas/" class="md-tabs__link">
+        <a href="../../solucion-problemas/" class="md-tabs__link">
           
   
   
@@ -509,9 +505,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Manual XLS2Sage50" class="md-nav__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
+    <a href="../.." title="Manual XLS2Sage50" class="md-nav__button md-logo" aria-label="Manual XLS2Sage50" data-md-component="logo">
       
-  <img src="img/hola.png" alt="logo">
+  <img src="../../img/hola.png" alt="logo">
 
     </a>
     Manual XLS2Sage50
@@ -523,8 +519,6 @@
       
   
   
-    
-  
   
   
     
@@ -542,23 +536,22 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="." class="md-nav__link md-nav__link--active">
+            <a href="../.." class="md-nav__link ">
               
   
   
@@ -583,13 +576,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_1" id="__nav_1_label" tabindex="">
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -637,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="inicio-rapido-xls2sage50.md" class="md-nav__link">
+      <a href="../../inicio-rapido-xls2sage50.md" class="md-nav__link">
         
   
   
@@ -699,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="link-descarga.md" class="md-nav__link">
+      <a href="../../link-descarga.md" class="md-nav__link">
         
   
   
@@ -759,7 +752,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="instalacion/" class="md-nav__link ">
+            <a href="../../instalacion/" class="md-nav__link ">
               
   
   
@@ -810,7 +803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="instalacion/requisitos/" class="md-nav__link">
+      <a href="../../instalacion/requisitos/" class="md-nav__link">
         
   
   
@@ -838,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="instalacion/instalacion/" class="md-nav__link">
+      <a href="../../instalacion/instalacion/" class="md-nav__link">
         
   
   
@@ -873,7 +866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="instalacion/configuracion-inicial/" class="md-nav__link">
+      <a href="../../instalacion/configuracion-inicial/" class="md-nav__link">
         
   
   
@@ -908,7 +901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="instalacion/verificacion/" class="md-nav__link">
+      <a href="../../instalacion/verificacion/" class="md-nav__link">
         
   
   
@@ -981,7 +974,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="inicio-rapido/" class="md-nav__link ">
+            <a href="../../inicio-rapido/" class="md-nav__link ">
               
   
   
@@ -1032,7 +1025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="inicio-rapido/primeros-pasos/" class="md-nav__link">
+      <a href="../../inicio-rapido/primeros-pasos/" class="md-nav__link">
         
   
   
@@ -1067,7 +1060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="inicio-rapido/importacion-basica/" class="md-nav__link">
+      <a href="../../inicio-rapido/importacion-basica/" class="md-nav__link">
         
   
   
@@ -1102,7 +1095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="inicio-rapido/ejemplo-practico/" class="md-nav__link">
+      <a href="../../inicio-rapido/ejemplo-practico/" class="md-nav__link">
         
   
   
@@ -1179,7 +1172,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="modo-api/" class="md-nav__link ">
+            <a href="../../modo-api/" class="md-nav__link ">
               
   
   
@@ -1230,7 +1223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-api/conceptos/" class="md-nav__link">
+      <a href="../../modo-api/conceptos/" class="md-nav__link">
         
   
   
@@ -1258,7 +1251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-api/conexion/" class="md-nav__link">
+      <a href="../../modo-api/conexion/" class="md-nav__link">
         
   
   
@@ -1293,7 +1286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-api/mapeo/" class="md-nav__link">
+      <a href="../../modo-api/mapeo/" class="md-nav__link">
         
   
   
@@ -1328,7 +1321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-api/proceso/" class="md-nav__link">
+      <a href="../../modo-api/proceso/" class="md-nav__link">
         
   
   
@@ -1363,7 +1356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-api/ejemplos/" class="md-nav__link">
+      <a href="../../modo-api/ejemplos/" class="md-nav__link">
         
   
   
@@ -1431,7 +1424,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="modo-csv/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -1482,7 +1475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-csv/conceptos/" class="md-nav__link">
+      <a href="../conceptos/" class="md-nav__link">
         
   
   
@@ -1510,7 +1503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-csv/configuracion/" class="md-nav__link">
+      <a href="../configuracion/" class="md-nav__link">
         
   
   
@@ -1538,7 +1531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-csql/generacion-sql.md" class="md-nav__link">
+      <a href="../../modo-csql/generacion-sql.md" class="md-nav__link">
         
   
   
@@ -1566,7 +1559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modo-csv/importacion-manual/" class="md-nav__link">
+      <a href="../importacion-manual/" class="md-nav__link">
         
   
   
@@ -1641,7 +1634,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="plantillas/" class="md-nav__link ">
+            <a href="../../plantillas/" class="md-nav__link ">
               
   
   
@@ -1692,7 +1685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="plantillas/crear/" class="md-nav__link">
+      <a href="../../plantillas/crear/" class="md-nav__link">
         
   
   
@@ -1727,7 +1720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="plantillas/usar/" class="md-nav__link">
+      <a href="../../plantillas/usar/" class="md-nav__link">
         
   
   
@@ -1762,7 +1755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="plantillas/editar/" class="md-nav__link">
+      <a href="../../plantillas/editar/" class="md-nav__link">
         
   
   
@@ -1797,7 +1790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="plantillas/predefinidas/" class="md-nav__link">
+      <a href="../../plantillas/predefinidas/" class="md-nav__link">
         
   
   
@@ -1874,7 +1867,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="interfaz-grafica/" class="md-nav__link ">
+            <a href="../../interfaz-grafica/" class="md-nav__link ">
               
   
   
@@ -1925,7 +1918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="interfaz-grafica/pantalla-principal.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/pantalla-principal.md" class="md-nav__link">
         
   
   
@@ -1953,7 +1946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="interfaz-grafica/navegacion.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/navegacion.md" class="md-nav__link">
         
   
   
@@ -1981,7 +1974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="interfaz-grafica/pestanha-api.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/pestanha-api.md" class="md-nav__link">
         
   
   
@@ -2009,7 +2002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="interfaz-grafica/pestanha-csv.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/pestanha-csv.md" class="md-nav__link">
         
   
   
@@ -2037,7 +2030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="interfaz-grafica/configuracion.md" class="md-nav__link">
+      <a href="../../interfaz-grafica/configuracion.md" class="md-nav__link">
         
   
   
@@ -2103,7 +2096,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="linea-comandos/" class="md-nav__link ">
+            <a href="../../linea-comandos/" class="md-nav__link ">
               
   
   
@@ -2154,7 +2147,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linea-comandos/comandos/" class="md-nav__link">
+      <a href="../../linea-comandos/comandos/" class="md-nav__link">
         
   
   
@@ -2189,7 +2182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linea-comandos/automatizacion/" class="md-nav__link">
+      <a href="../../linea-comandos/automatizacion/" class="md-nav__link">
         
   
   
@@ -2224,7 +2217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linea-comandos/scripts-lotes/" class="md-nav__link">
+      <a href="../../linea-comandos/scripts-lotes/" class="md-nav__link">
         
   
   
@@ -2299,7 +2292,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="configuracion/" class="md-nav__link ">
+            <a href="../../configuracion/" class="md-nav__link ">
               
   
   
@@ -2343,7 +2336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="configuracion/config-ini/" class="md-nav__link">
+      <a href="../../configuracion/config-ini/" class="md-nav__link">
         
   
   
@@ -2378,7 +2371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="configuracion/variables-entorno/" class="md-nav__link">
+      <a href="../../configuracion/variables-entorno/" class="md-nav__link">
         
   
   
@@ -2413,7 +2406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="configuracion/directorios/" class="md-nav__link">
+      <a href="../../configuracion/directorios/" class="md-nav__link">
         
   
   
@@ -2448,7 +2441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="configuracion/logs/" class="md-nav__link">
+      <a href="../../configuracion/logs/" class="md-nav__link">
         
   
   
@@ -2516,7 +2509,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="solucion-problemas/" class="md-nav__link ">
+            <a href="../../solucion-problemas/" class="md-nav__link ">
               
   
   
@@ -2567,7 +2560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="solucion-problemas/comunes/" class="md-nav__link">
+      <a href="../../solucion-problemas/comunes/" class="md-nav__link">
         
   
   
@@ -2602,7 +2595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="solucion-problemas/errores-conexion/" class="md-nav__link">
+      <a href="../../solucion-problemas/errores-conexion/" class="md-nav__link">
         
   
   
@@ -2637,7 +2630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="solucion-problemas/errores-importacion/" class="md-nav__link">
+      <a href="../../solucion-problemas/errores-importacion/" class="md-nav__link">
         
   
   
@@ -2665,7 +2658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="solucion-problemas/soporte/" class="md-nav__link">
+      <a href="../../solucion-problemas/soporte/" class="md-nav__link">
         
   
   
@@ -2727,22 +2720,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#caracteristicas-principales" class="md-nav__link">
+  <a href="#ventajas-de-los-scripts-sql" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Características Principales
+        Ventajas de los Scripts SQL
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Características Principales">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-del-script-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estructura del Script SQL
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura del Script SQL">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#importacion-directa-por-api" class="md-nav__link">
+  <a href="#formato-basico" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Importación Directa por API
+        Formato Básico
       
     </span>
   </a>
@@ -2750,43 +2754,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#generacion-de-csvsql" class="md-nav__link">
+  <a href="#script-completo-con-cabeceras" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Generación de CSV/SQL
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#interfaz-grafica-intuitiva" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interfaz Gráfica Intuitiva
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gestion-de-plantillas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Gestión de Plantillas
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#linea-de-comandos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Línea de Comandos
+        Script Completo con Cabeceras
       
     </span>
   </a>
@@ -2799,33 +2770,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#para-quien-es-esta-aplicacion" class="md-nav__link">
+  <a href="#opciones-de-generacion-sql" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ¿Para quién es esta aplicación?
+        Opciones de Generación SQL
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modos-de-operacion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Modos de Operación
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Modos de Operación">
+    <nav class="md-nav" aria-label="Opciones de Generación SQL">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#modo-api" class="md-nav__link">
+  <a href="#transacciones" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Modo API
+        Transacciones
       
     </span>
   </a>
@@ -2833,10 +2793,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#modo-csv" class="md-nav__link">
+  <a href="#manejo-de-errores" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Modo CSV
+        Manejo de Errores
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comentarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comentarios
       
     </span>
   </a>
@@ -2849,33 +2820,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#requisitos-minimos" class="md-nav__link">
+  <a href="#tipos-de-datos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Requisitos Mínimos
+        Tipos de Datos
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#primeros-pasos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Primeros Pasos
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Primeros Pasos">
+    <nav class="md-nav" aria-label="Tipos de Datos">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#instalacion-rapida" class="md-nav__link">
+  <a href="#mapeo-de-tipos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Instalación Rápida
+        Mapeo de Tipos
       
     </span>
   </a>
@@ -2883,10 +2843,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#tu-primera-importacion" class="md-nav__link">
+  <a href="#manejo-de-valores-especiales" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tu Primera Importación
+        Manejo de Valores Especiales
       
     </span>
   </a>
@@ -2899,10 +2859,149 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#estructura-de-la-documentacion" class="md-nav__link">
+  <a href="#ejecutar-el-script-sql" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Estructura de la Documentación
+        Ejecutar el Script SQL
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejecutar el Script SQL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-1-sql-server-management-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Método 1: SQL Server Management Studio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-2-sqlcmd-linea-de-comandos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Método 2: sqlcmd (Línea de Comandos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-3-desde-sage-50" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Método 3: Desde SAGE 50
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificacion-post-ejecucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verificación Post-Ejecución
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verificación Post-Ejecución">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#verificar-registros-insertados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verificar Registros Insertados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verificar-integridad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verificar Integridad
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemas-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problemas Comunes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problemas Comunes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-clave-primaria-duplicada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Clave Primaria Duplicada
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-constraint-de-foreign-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Constraint de Foreign Key
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-tipo-de-dato-incorrecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Tipo de Dato Incorrecto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#script-de-actualizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Script de Actualización
       
     </span>
   </a>
@@ -2910,10 +3009,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ejemplo-de-uso" class="md-nav__link">
+  <a href="#script-hibrido-insertar-o-actualizar" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ejemplo de Uso
+        Script Hibrido (Insertar o Actualizar)
       
     </span>
   </a>
@@ -2921,32 +3020,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#soporte-y-ayuda" class="md-nav__link">
+  <a href="#proximo-paso" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Soporte y Ayuda
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#novedades-en-esta-version" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Novedades en esta Versión
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#proximos-pasos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Próximos Pasos
+        Próximo Paso
       
     </span>
   </a>
@@ -2970,169 +3047,336 @@
 
 
 
-<h1 id="bienvenido-a-xls2sage50">Bienvenido a xls2sage50<a class="headerlink" href="#bienvenido-a-xls2sage50" title="Permanent link">&para;</a></h1>
-<p><img align="right" alt="Logo xls2sage50" src="img:xls2sage50-logo-interfaz-principal.png" /></p>
-<p><strong>xls2sage50</strong> es una aplicación profesional diseñada para simplificar la importación de datos desde archivos Microsoft Excel hacia el software de gestión contable SAGE 50.</p>
-<p>Esta herramienta permite ahorrar horas de trabajo manual, eliminando los errores humanos y agilizando significativamente el proceso de incorporación de datos al sistema contable.</p>
-<h2 id="caracteristicas-principales">Características Principales<a class="headerlink" href="#caracteristicas-principales" title="Permanent link">&para;</a></h2>
-<h3 id="importacion-directa-por-api">Importación Directa por API<a class="headerlink" href="#importacion-directa-por-api" title="Permanent link">&para;</a></h3>
-<p>Conecta directamente con SAGE 50 mediante su API oficial e importa datos de forma automática sin necesidad de archivos intermedios.</p>
-<h3 id="generacion-de-csvsql">Generación de CSV/SQL<a class="headerlink" href="#generacion-de-csvsql" title="Permanent link">&para;</a></h3>
-<p>Genera archivos CSV y scripts SQL listos para importar manualmente en SAGE 50, ideal para entornos donde la API no está disponible.</p>
-<h3 id="interfaz-grafica-intuitiva">Interfaz Gráfica Intuitiva<a class="headerlink" href="#interfaz-grafica-intuitiva" title="Permanent link">&para;</a></h3>
-<p>Interfaz moderna y fácil de usar basada en Flet, diseñada para usuarios tanto técnicos como no técnicos.</p>
-<h3 id="gestion-de-plantillas">Gestión de Plantillas<a class="headerlink" href="#gestion-de-plantillas" title="Permanent link">&para;</a></h3>
-<p>Guarda y reutiliza configuraciones de importación para trabajar de forma eficiente con archivos recurrentes.</p>
-<h3 id="linea-de-comandos">Línea de Comandos<a class="headerlink" href="#linea-de-comandos" title="Permanent link">&para;</a></h3>
-<p>Automatiza procesos mediante scripts por lotes usando la interfaz de línea de comandos (CLI).</p>
-<h2 id="para-quien-es-esta-aplicacion">¿Para quién es esta aplicación?<a class="headerlink" href="#para-quien-es-esta-aplicacion" title="Permanent link">&para;</a></h2>
-<div class="admonition info">
-<p class="admonition-title">Perfiles de Usuario</p>
-<ul>
-<li><strong>Contables y Administradores:</strong> Simplifican la carga masiva de asientos, clientes y proveedores.</li>
-<li><strong>Departamentos de TI:</strong> Automatizan procesos recurrentes mediante scripts y plantillas.</li>
-<li><strong>Empresas de Servicios:</strong> Gestionan importaciones para múltiples clientes de forma estandarizada.</li>
-<li><strong>Autónomos y PYMES:</strong> Reducen el tiempo dedicado a tareas administrativas repetitivas.</li>
-</ul>
-</div>
-<h2 id="modos-de-operacion">Modos de Operación<a class="headerlink" href="#modos-de-operacion" title="Permanent link">&para;</a></h2>
-<p>xls2sage50 funciona en dos modos principales:</p>
-<h3 id="modo-api">Modo API<a class="headerlink" href="#modo-api" title="Permanent link">&para;</a></h3>
-<p>El modo API permite la importación directa de datos a SAGE 50 utilizando la API oficial. Este modo requiere:</p>
-<ul>
-<li>SAGE 50 instalado y configurado con el módulo API habilitado</li>
-<li>Licencia de SAGE 50 que incluya acceso por API</li>
-<li>Configuración de conexión válida</li>
-</ul>
-<p><strong>Ventajas del modo API:</strong>
-- Importación automática sin intervención manual
-- Validación inmediata de datos
-- Actualización en tiempo real del progreso
-- Menor riesgo de errores humanos</p>
-<h3 id="modo-csv">Modo CSV<a class="headerlink" href="#modo-csv" title="Permanent link">&para;</a></h3>
-<p>El modo CSV genera archivos de texto CSV y scripts SQL que pueden importarse manualmente en SAGE 50.</p>
-<p><strong>Ventajas del modo CSV:</strong>
-- No requiere licencia API de SAGE 50
-- Compatible con todas las versiones de SAGE 50
-- Permite revisión previa de los datos
-- Ideal para entornos con restricciones de seguridad</p>
-<h2 id="requisitos-minimos">Requisitos Mínimos<a class="headerlink" href="#requisitos-minimos" title="Permanent link">&para;</a></h2>
-<div class="admonition note">
-<p class="admonition-title">Requisitos del Sistema</p>
-<ul>
-<li><strong>Sistema Operativo:</strong> Windows 10 o superior</li>
-<li><strong>Python:</strong> 3.12 o superior (para instalación desde fuente)</li>
-<li><strong>Memoria RAM:</strong> 4 GB mínimo (8 GB recomendado)</li>
-<li><strong>Espacio en Disco:</strong> 500 MB para la aplicación</li>
-<li><strong>SAGE 50:</strong> Versión 2020 o superior (opcional para modo CSV)</li>
-</ul>
-</div>
-<p>Para más detalles sobre los requisitos, consulte la sección de <a href="instalacion/requisitos/">Instalación y Requisitos</a>.</p>
-<h2 id="primeros-pasos">Primeros Pasos<a class="headerlink" href="#primeros-pasos" title="Permanent link">&para;</a></h2>
-<h3 id="instalacion-rapida">Instalación Rápida<a class="headerlink" href="#instalacion-rapida" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Descargar el instalador</strong> desde el repositorio oficial</li>
-<li><strong>Ejecutar el instalador</strong> y seguir las instrucciones</li>
-<li><strong>Iniciar la aplicación</strong> desde el escritorio</li>
-</ol>
-<p>Para instrucciones detalladas, visite la <a href="instalacion/instalacion/">Guía de Instalación</a>.</p>
-<h3 id="tu-primera-importacion">Tu Primera Importación<a class="headerlink" href="#tu-primera-importacion" title="Permanent link">&para;</a></h3>
-<pre class="mermaid"><code>flowchart LR
-    A[Iniciar xls2sage50] --&gt; B[Seleccionar archivo Excel]
-    B --&gt; C[Elegir hoja del libro]
-    C --&gt; D[Configurar mapeo de campos]
-    D --&gt; E[Ejecutar importación]
-    E --&gt; F[Verificar resultados]</code></pre>
-<p>Para un tutorial paso a paso, consulte la <a href="inicio-rapido/primeros-pasos/">Guía de Inicio Rápido</a>.</p>
-<h2 id="estructura-de-la-documentacion">Estructura de la Documentación<a class="headerlink" href="#estructura-de-la-documentacion" title="Permanent link">&para;</a></h2>
+<h1 id="generacion-de-sql">Generación de SQL<a class="headerlink" href="#generacion-de-sql" title="Permanent link">&para;</a></h1>
+<p>Además de los archivos CSV, xls2sage50 puede generar scripts SQL con sentencias INSERT listas para ejecutar en la base de datos de SAGE 50.</p>
+<h2 id="ventajas-de-los-scripts-sql">Ventajas de los Scripts SQL<a class="headerlink" href="#ventajas-de-los-scripts-sql" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Sección</th>
+<th>Ventaja</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="instalacion/">Instalación</a></td>
-<td>Guía completa de instalación y configuración inicial</td>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Importación directa</strong></td>
+<td>No requiere el asistente de importación</td>
 </tr>
 <tr>
-<td><a href="inicio-rapido/">Inicio Rápido</a></td>
-<td>Tutorial para tu primera importación</td>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Transaccional</strong></td>
+<td>Puede confirmar o deshacer toda la operación</td>
 </tr>
 <tr>
-<td><a href="modo-api/">Modo API</a></td>
-<td>Documentación del modo de importación por API</td>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Automatizable</strong></td>
+<td>Puede ejecutarse mediante scripts</td>
 </tr>
 <tr>
-<td><a href="modo-csv/">Modo CSV</a></td>
-<td>Documentación del modo de generación de archivos</td>
-</tr>
-<tr>
-<td><a href="plantillas/">Plantillas</a></td>
-<td>Gestión y reutilización de configuraciones</td>
-</tr>
-<tr>
-<td><a href="interfaz-grafica/">Interfaz Gráfica</a></td>
-<td>Referencia completa de la interfaz de usuario</td>
-</tr>
-<tr>
-<td><a href="linea-comandos/">Línea de Comandos</a></td>
-<td>Guía de automatización mediante scripts</td>
-</tr>
-<tr>
-<td><a href="configuracion/">Configuración</a></td>
-<td>Configuración avanzada y personalización</td>
-</tr>
-<tr>
-<td><a href="solucion-problemas/">Solución de Problemas</a></td>
-<td>Solución de errores comunes y soporte</td>
+<td><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2705.svg" title=":white_check_mark:" /> <strong>Reutilizable</strong></td>
+<td>El script puede editarse y reutilizarse</td>
 </tr>
 </tbody>
 </table>
-<h2 id="ejemplo-de-uso">Ejemplo de Uso<a class="headerlink" href="#ejemplo-de-uso" title="Permanent link">&para;</a></h2>
-<p>A continuación, se muestra un ejemplo básico de cómo importar un archivo de clientes desde Excel:</p>
-<div class="admonition example">
-<p class="admonition-title">Importar Clientes desde Excel</p>
+<h2 id="estructura-del-script-sql">Estructura del Script SQL<a class="headerlink" href="#estructura-del-script-sql" title="Permanent link">&para;</a></h2>
+<h3 id="formato-basico">Formato Básico<a class="headerlink" href="#formato-basico" title="Permanent link">&para;</a></h3>
+<p>Cada registro genera una sentencia INSERT:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NIF</span><span class="p">,</span><span class="w"> </span><span class="n">Direccion</span><span class="p">,</span><span class="w"> </span><span class="n">Poblacion</span><span class="p">,</span><span class="w"> </span><span class="n">Provincia</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI001&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Juan Pérez SL&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;B12345678&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Calle Mayor 1&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Madrid&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Madrid&#39;</span><span class="p">);</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NIF</span><span class="p">,</span><span class="w"> </span><span class="n">Direccion</span><span class="p">,</span><span class="w"> </span><span class="n">Poblacion</span><span class="p">,</span><span class="w"> </span><span class="n">Provincia</span><span class="p">)</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI002&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;María López SA&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;A87654321&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Avenida Libertad 2&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Barcelona&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Barcelona&#39;</span><span class="p">);</span>
+</span></code></pre></div>
+<h3 id="script-completo-con-cabeceras">Script Completo con Cabeceras<a class="headerlink" href="#script-completo-con-cabeceras" title="Permanent link">&para;</a></h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">-- =====================================================</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1">-- Importación de Clientes</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1">-- Generado por xls2sage50</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1">-- Fecha: 01/02/2024 10:30:00</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1">-- Archivo origen: clientes_nuevos.xlsx</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="c1">-- =====================================================</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="c1">-- Deshabilitar restricciones (opcional)</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="k">ALTER</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="n">NOCHECK</span><span class="w"> </span><span class="k">CONSTRAINT</span><span class="w"> </span><span class="k">ALL</span><span class="p">;</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="k">BEGIN</span><span class="w"> </span><span class="k">TRANSACTION</span><span class="p">;</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="c1">-- Cliente 1: CLI001</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NIF</span><span class="p">,</span><span class="w"> </span><span class="n">Direccion</span><span class="p">,</span><span class="w"> </span><span class="n">Poblacion</span><span class="p">,</span><span class="w"> </span><span class="n">Provincia</span><span class="p">,</span><span class="w"> </span><span class="n">CodigoPostal</span><span class="p">,</span><span class="w"> </span><span class="n">Telefono1</span><span class="p">,</span><span class="w"> </span><span class="n">Email</span><span class="p">)</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI001&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Juan Pérez SL&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;B12345678&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Calle Mayor 1&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Madrid&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Madrid&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;28001&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;910000001&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;info@juanperez.es&#39;</span><span class="p">);</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="c1">-- Cliente 2: CLI002</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NIF</span><span class="p">,</span><span class="w"> </span><span class="n">Direccion</span><span class="p">,</span><span class="w"> </span><span class="n">Poblacion</span><span class="p">,</span><span class="w"> </span><span class="n">Provincia</span><span class="p">,</span><span class="w"> </span><span class="n">CodigoPostal</span><span class="p">,</span><span class="w"> </span><span class="n">Telefono1</span><span class="p">,</span><span class="w"> </span><span class="n">Email</span><span class="p">)</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI002&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;María López SA&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;A87654321&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Avenida Libertad 2&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Barcelona&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Barcelona&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;08001&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;920000002&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;maria@lopez.com&#39;</span><span class="p">);</span>
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="k">COMMIT</span><span class="w"> </span><span class="k">TRANSACTION</span><span class="p">;</span>
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="c1">-- Rehabilitar restricciones</span>
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="k">ALTER</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="k">CHECK</span><span class="w"> </span><span class="k">CONSTRAINT</span><span class="w"> </span><span class="k">ALL</span><span class="p">;</span>
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="c1">-- =====================================================</span>
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="c1">-- Resumen</span>
+</span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="c1">-- Registros procesados: 2</span>
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="c1">-- Registros exitosos: 2</span>
+</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="c1">-- Registros con error: 0</span>
+</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="c1">-- =====================================================</span>
+</span></code></pre></div>
+<h2 id="opciones-de-generacion-sql">Opciones de Generación SQL<a class="headerlink" href="#opciones-de-generacion-sql" title="Permanent link">&para;</a></h2>
+<h3 id="transacciones">Transacciones<a class="headerlink" href="#transacciones" title="Permanent link">&para;</a></h3>
+<p>Controla si las sentencias se agrupan en una transacción:</p>
+<table>
+<thead>
+<tr>
+<th>Opción</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Con transacción</strong></td>
+<td>Todas las INSERT en una transacción</td>
+</tr>
+<tr>
+<td><strong>Sin transacción</strong></td>
+<td>Cada INSERT es independiente</td>
+</tr>
+</tbody>
+</table>
+<p>!!! tip "Use Transacciones**</p>
+<div class="language-text highlight"><pre><span></span><code>Las transacciones permiten deshacer todos los cambios si algo sale mal.
+</code></pre></div>
+<h3 id="manejo-de-errores">Manejo de Errores<a class="headerlink" href="#manejo-de-errores" title="Permanent link">&para;</a></h3>
+<p>Configure el comportamiento ante errores:</p>
+<table>
+<thead>
+<tr>
+<th>Opción</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Continuar</strong></td>
+<td>Continua tras errores, los registra en comentarios</td>
+</tr>
+<tr>
+<td><strong>Detener</strong></td>
+<td>Incluye comandos para detener en errores</td>
+</tr>
+<tr>
+<td><strong>Ignorar</strong></td>
+<td>No incluye manejo de errores</td>
+</tr>
+</tbody>
+</table>
+<h3 id="comentarios">Comentarios<a class="headerlink" href="#comentarios" title="Permanent link">&para;</a></h3>
+<p>Configure el nivel de detalle en los comentarios:</p>
+<table>
+<thead>
+<tr>
+<th>Nivel</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Básico</strong></td>
+<td>Solo cabecera y resumen</td>
+</tr>
+<tr>
+<td><strong>Detallado</strong></td>
+<td>Comentario antes de cada INSERT</td>
+</tr>
+<tr>
+<td><strong>Completo</strong></td>
+<td>Comentarios con información de cada campo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tipos-de-datos">Tipos de Datos<a class="headerlink" href="#tipos-de-datos" title="Permanent link">&para;</a></h2>
+<h3 id="mapeo-de-tipos">Mapeo de Tipos<a class="headerlink" href="#mapeo-de-tipos" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tipo Excel</th>
+<th>Tipo SQL</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Texto</td>
+<td>NVARCHAR(255)</td>
+<td>'Juan Pérez'</td>
+</tr>
+<tr>
+<td>Número entero</td>
+<td>INT</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Decimal</td>
+<td>DECIMAL(18,2)</td>
+<td>1234.56</td>
+</tr>
+<tr>
+<td>Fecha</td>
+<td>DATETIME</td>
+<td>'2024-02-01 00:00:00'</td>
+</tr>
+<tr>
+<td>Booleano</td>
+<td>BIT</td>
+<td>1 (true) o 0 (false)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="manejo-de-valores-especiales">Manejo de Valores Especiales<a class="headerlink" href="#manejo-de-valores-especiales" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Valor</th>
+<th>Representación SQL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NULL</td>
+<td>NULL</td>
+</tr>
+<tr>
+<td>Cadena vacía</td>
+<td>''</td>
+</tr>
+<tr>
+<td>Fecha nula</td>
+<td>NULL</td>
+</tr>
+<tr>
+<td>Comilla simple</td>
+<td>'' (doble comilla simple)</td>
+</tr>
+</tbody>
+</table>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">-- Ejemplo con valores especiales</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">Telefono</span><span class="p">,</span><span class="w"> </span><span class="n">FechaAlta</span><span class="p">)</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI003&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Empresa D&#39;&#39;Amico&#39;</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="p">);</span>
+</span></code></pre></div>
+<h2 id="ejecutar-el-script-sql">Ejecutar el Script SQL<a class="headerlink" href="#ejecutar-el-script-sql" title="Permanent link">&para;</a></h2>
+<h3 id="metodo-1-sql-server-management-studio">Método 1: SQL Server Management Studio<a class="headerlink" href="#metodo-1-sql-server-management-studio" title="Permanent link">&para;</a></h3>
 <ol>
-<li>Abre xls2sage50</li>
-<li>Haz clic en <strong>"Seleccionar Archivo"</strong> y elige tu archivo Excel</li>
-<li>Selecciona la hoja que contiene los clientes</li>
-<li>Configura el mapeo de columnas (por ejemplo, "Nombre" → "NombreCliente")</li>
-<li>Haz clic en <strong>"Importar"</strong> y espera a que finalice el proceso</li>
+<li>Abra SSMS y conéctese al servidor de SAGE 50</li>
+<li>Abra el archivo SQL generado</li>
+<li>Verifique que está seleccionada la base de datos correcta</li>
+<li>Haga clic en <strong>"Ejecutar"</strong></li>
+<li>Revise los mensajes de resultado</li>
 </ol>
-</div>
-<h2 id="soporte-y-ayuda">Soporte y Ayuda<a class="headerlink" href="#soporte-y-ayuda" title="Permanent link">&para;</a></h2>
-<p>Si encuentras algún problema o tienes preguntas:</p>
-<ul>
-<li>Consulta la sección de <a href="solucion-problemas/">Solución de Problemas</a></li>
-<li>Revisa los <a href="inicio-rapido/ejemplo-practico/">Ejemplos Prácticos</a></li>
-<li>Contacta con el <a href="solucion-problemas/soporte/">Soporte Técnico</a></li>
-</ul>
-<h2 id="novedades-en-esta-version">Novedades en esta Versión<a class="headerlink" href="#novedades-en-esta-version" title="Permanent link">&para;</a></h2>
-<div class="admonition tip">
-<p class="admonition-title">Versión Actual: Rama geminis</p>
-<ul>
-<li>Migración completa a <strong>Polars</strong> para procesamiento de Excel (10x más rápido)</li>
-<li>Nueva interfaz gráfica basada en <strong>Flet</strong></li>
-<li>Soporte mejorado para archivos grandes</li>
-<li>Sistema de logging mejorado</li>
-<li>Mejoras en la gestión de plantillas</li>
-</ul>
-</div>
-<h2 id="proximos-pasos">Próximos Pasos<a class="headerlink" href="#proximos-pasos" title="Permanent link">&para;</a></h2>
-<p>Una vez instalada la aplicación, te recomendamos seguir este orden:</p>
+<p><img alt="Ejecutar en SSMS" src="img:sql-ejecutar-ssms.png" /></p>
+<h3 id="metodo-2-sqlcmd-linea-de-comandos">Método 2: sqlcmd (Línea de Comandos)<a class="headerlink" href="#metodo-2-sqlcmd-linea-de-comandos" title="Permanent link">&para;</a></h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>sqlcmd<span class="w"> </span>-S<span class="w"> </span>localhost<span class="se">\S</span>AGE50<span class="w"> </span>-d<span class="w"> </span>sage50<span class="w"> </span>-i<span class="w"> </span>C:<span class="se">\E</span>xport<span class="se">\c</span>lientes.sql<span class="w"> </span>-o<span class="w"> </span>C:<span class="se">\E</span>xport<span class="se">\r</span>esultados.txt
+</span></code></pre></div>
+<p>Parámetros:</p>
+<table>
+<thead>
+<tr>
+<th>Parámetro</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>-S</code></td>
+<td>Servidor SQL</td>
+</tr>
+<tr>
+<td><code>-d</code></td>
+<td>Base de datos</td>
+</tr>
+<tr>
+<td><code>-i</code></td>
+<td>Archivo de entrada</td>
+</tr>
+<tr>
+<td><code>-o</code></td>
+<td>Archivo de salida (opcional)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="metodo-3-desde-sage-50">Método 3: Desde SAGE 50<a class="headerlink" href="#metodo-3-desde-sage-50" title="Permanent link">&para;</a></h3>
 <ol>
-<li>Lee la <a href="instalacion/instalacion/">Guía de Instalación</a> si no has instalado la aplicación aún</li>
-<li>Sigue el <a href="inicio-rapido/primeros-pasos/">Tutorial de Inicio Rápido</a> para familiarizarte con la interfaz</li>
-<li>Consulta la documentación específica según tu modo de operación:</li>
-<li><a href="modo-api/">Modo API</a> para importación directa</li>
-<li><a href="modo-csv/">Modo CSV</a> para generación de archivos</li>
-<li>Aprende a crear <a href="plantillas/">Plantillas</a> para automatizar tu flujo de trabajo</li>
+<li>Abra SAGE 50</li>
+<li>Vaya a <strong>Herramientas</strong> &gt; <strong>Utilidades</strong> &gt; <strong>Ejecutar SQL</strong>
+3.Seleccione el archivo SQL generado</li>
+<li>Haga clic en <strong>"Ejecutar"</strong></li>
 </ol>
-<hr />
-<p>¿Listo para comenzar? Empieza con la <a href="instalacion/instalacion/">Instalación</a> o salta directamente al <a href="inicio-rapido/primeros-pasos/">Inicio Rápido</a>.</p>
+<h2 id="verificacion-post-ejecucion">Verificación Post-Ejecución<a class="headerlink" href="#verificacion-post-ejecucion" title="Permanent link">&para;</a></h2>
+<h3 id="verificar-registros-insertados">Verificar Registros Insertados<a class="headerlink" href="#verificar-registros-insertados" title="Permanent link">&para;</a></h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1">-- Contar registros insertados</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">TotalClientes</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">FROM</span><span class="w"> </span><span class="n">Clientes</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">CodigoCliente</span><span class="w"> </span><span class="k">LIKE</span><span class="w"> </span><span class="s1">&#39;CLI%&#39;</span><span class="p">;</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="c1">-- Verificar un registro específico</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">Clientes</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">CodigoCliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;CLI001&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+<h3 id="verificar-integridad">Verificar Integridad<a class="headerlink" href="#verificar-integridad" title="Permanent link">&para;</a></h3>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1">-- Verificar claves duplicadas</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">Total</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="k">FROM</span><span class="w"> </span><span class="n">Clientes</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">CodigoCliente</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="k">HAVING</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+</span></code></pre></div>
+<h2 id="problemas-comunes">Problemas Comunes<a class="headerlink" href="#problemas-comunes" title="Permanent link">&para;</a></h2>
+<h3 id="error-clave-primaria-duplicada">Error: Clave Primaria Duplicada<a class="headerlink" href="#error-clave-primaria-duplicada" title="Permanent link">&para;</a></h3>
+<div class="admonition error">
+<p class="admonition-title">Violation of PRIMARY KEY constraint</p>
+<p><strong>Causa:</strong> Ya existe un registro con el mismo código</p>
+<p><strong>Solución:</strong>
+- Use una sentencia UPDATE en lugar de INSERT
+- O elimine el registro existente primero</p>
+</div>
+<h3 id="error-constraint-de-foreign-key">Error: Constraint de Foreign Key<a class="headerlink" href="#error-constraint-de-foreign-key" title="Permanent link">&para;</a></h3>
+<p>!!! error "Conflictión con FOREIGN KEY**</p>
+<div class="language-text highlight"><pre><span></span><code>**Causa:** Se referencia a un registro que no existe
+
+**Solución:**
+- Verifique que las familias, provincias, etc. existen
+- Importe primero los datos maestros
+</code></pre></div>
+<h3 id="error-tipo-de-dato-incorrecto">Error: Tipo de Dato Incorrecto<a class="headerlink" href="#error-tipo-de-dato-incorrecto" title="Permanent link">&para;</a></h3>
+<p>!!! error "Error converting data type**</p>
+<div class="language-text highlight"><pre><span></span><code>**Causa:** El tipo de dato no coincide
+
+**Solución:**
+- Revise el formato de fechas y números
+- Asegúrese de que los textos estén entre comillas simples
+</code></pre></div>
+<h2 id="script-de-actualizacion">Script de Actualización<a class="headerlink" href="#script-de-actualizacion" title="Permanent link">&para;</a></h2>
+<p>Para actualizar registros existentes:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1">-- Actualizar cliente existente</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="k">UPDATE</span><span class="w"> </span><span class="n">Clientes</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="k">SET</span><span class="w"> </span><span class="n">NombreCliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Nuevo Nombre&#39;</span><span class="p">,</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="n">Direccion</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Nueva Dirección&#39;</span><span class="p">,</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">    </span><span class="n">Telefono1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;930000003&#39;</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">CodigoCliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;CLI001&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+<h2 id="script-hibrido-insertar-o-actualizar">Script Hibrido (Insertar o Actualizar)<a class="headerlink" href="#script-hibrido-insertar-o-actualizar" title="Permanent link">&para;</a></h2>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1">-- Insertar si no existe, actualizar si existe</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">CodigoCliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;CLI001&#39;</span><span class="p">)</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="k">BEGIN</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">Clientes</span><span class="w"> </span><span class="p">(</span><span class="n">CodigoCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NombreCliente</span><span class="p">,</span><span class="w"> </span><span class="n">NIF</span><span class="p">)</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;CLI001&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Juan Pérez SL&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;B12345678&#39;</span><span class="p">);</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="k">END</span>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="k">ELSE</span>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="k">BEGIN</span>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="w">    </span><span class="k">UPDATE</span><span class="w"> </span><span class="n">Clientes</span>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="w">    </span><span class="k">SET</span><span class="w"> </span><span class="n">NombreCliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Juan Pérez SL&#39;</span><span class="p">,</span>
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="w">        </span><span class="n">NIF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;B12345678&#39;</span>
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="w">    </span><span class="k">WHERE</span><span class="w"> </span><span class="n">CodigoCliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;CLI001&#39;</span><span class="p">;</span>
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="k">END</span>
+</span></code></pre></div>
+<h2 id="proximo-paso">Próximo Paso<a class="headerlink" href="#proximo-paso" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../importacion-manual/">Importación Manual</a> - Importar los archivos en SAGE 50</li>
+</ul>
 
 
 
@@ -3336,12 +3580,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow", "content.code.copy", "content.tabs.link"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"default": "stable", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="javascripts/extra.js"></script>
+        <script src="../../javascripts/extra.js"></script>
       
     
   </body>
