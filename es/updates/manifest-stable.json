@@ -1,0 +1,18 @@
+{
+  "project": "xls2sage50",
+  "channel": "stable",
+  "latest": "0.1.0",
+  "key_id": "global-2026-01",
+  "generated_at": "2026-07-27T11:20:23.270730+00:00",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "type": "full",
+      "target": "win-x64",
+      "url": "https://github.com/wertyMSD/xls2sage50/releases/download/v0.1.0/xls2sage50.zip",
+      "sha256": "9ea06d819c6ff9e5128cfeb8be8a8929e1db21faee2f3d7fd0cbf46a942db6d4",
+      "size": 208078327
+    }
+  ],
+  "signature": "YY008shFTbDMn872QB7OtJkPS4eCJ4geYi3iKPl1c658d25d6NzsgOg9xxpR/KxqXvCYQVaUon7dYs7xV1FkDw=="
+}
