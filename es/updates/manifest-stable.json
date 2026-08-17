@@ -3,16 +3,16 @@
   "channel": "stable",
   "latest": "0.1.0",
   "key_id": "global-2026-01",
-  "generated_at": "2026-07-27T11:20:23.270730+00:00",
+  "generated_at": "2026-08-17T12:02:00.142043+00:00",
   "releases": [
     {
       "version": "0.1.0",
       "type": "full",
       "target": "win-x64",
-      "url": "https://github.com/wertyMSD/xls2sage50/releases/download/v0.1.0/xls2sage50.zip",
-      "sha256": "9ea06d819c6ff9e5128cfeb8be8a8929e1db21faee2f3d7fd0cbf46a942db6d4",
-      "size": 208078327
+      "url": "https://github.com/alfonsoautomatiza/xls2sage50/releases/download/v0.1.0/xls2sage50-0.1.0-win-x64-stable.zip",
+      "sha256": "d11f575681684f77576e7a84d935cf1ebc7bed022bb048bb0579814616fb7cc8",
+      "size": 217721786
     }
   ],
-  "signature": "YY008shFTbDMn872QB7OtJkPS4eCJ4geYi3iKPl1c658d25d6NzsgOg9xxpR/KxqXvCYQVaUon7dYs7xV1FkDw=="
+  "signature": "5uIKllcKeBxj8PwRNIoJlBPfhg9Ob5bRkaSKLTxBds2leyMYvm3w42ynG0eInwHZzsP6NtO46B/hnC8ZYb22Dw=="
 }
