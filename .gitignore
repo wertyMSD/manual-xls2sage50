@@ -1,0 +1,23 @@
+# Ignorar todo por defecto (modelo master mínima)
+
+# Artefactos de build del manual
+site/
+
+# Artefactos de release (JAMÁS commitear: zips, json de staging)
+release-assets/
+
+# Metadatos Synology
+@eaDir/
+
+# Registro de skills local
+.atl/
+
+# Interno: duplicado legacy de docs/ (la fuente es docs/)
+guia/
+
+# Interno: material de análisis comercial (no público)
+commercial-brochure/
+
+# Sistema
+Thumbs.db
+Desktop.ini

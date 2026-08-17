@@ -1,0 +1,8 @@
+# Índice: javascripts
+
+> Generado automáticamente el 2026-04-04
+> **Propósito de esta zona:** <!-- TODO: describe qué guardas aquí -->
+
+## Otros ficheros
+
+_Hay 1 ficheros no-markdown en esta carpeta._

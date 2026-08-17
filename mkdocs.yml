@@ -1,0 +1,228 @@
+site_name: Manual XLS2Sage50
+site_url:  https://alfonsoautomatiza.github.io/xls2sage50
+site_author: AlfonsoAutomatiza.com
+repo_url: https://github.com/alfonsoautomatiza/xls2sage50
+repo_name: alfonsoautomatiza/xls2sage50
+
+nav:
+  - Inicio:
+    - index.md
+    - Novedades: novedades.md
+    - Descarga: https://github.com/alfonsoautomatiza/xls2sage50/releases
+  - Sobre Nosotros: 'https://www.linkedin.com/in/%E2%98%85alfonso-martinez-gonzalez%E2%98%85-19236218/'
+  - Instalación y Requisitos:
+      - instalacion/index.md
+      - Requisitos del Sistema: instalacion/requisitos.md
+      - Instalación: instalacion/instalacion.md
+      - Configuración Inicial: instalacion/configuracion-inicial.md
+      - Verificación: instalacion/verificacion.md
+  - Inicio Rápido:
+      - inicio-rapido/index.md
+      - Primeros Pasos: inicio-rapido/primeros-pasos.md
+      - Importación Básica: inicio-rapido/importacion-basica.md
+      - Ejemplo Práctico: inicio-rapido/ejemplo-practico.md
+  - Modo de Importación API:
+      - modo-api/index.md
+      - Conceptos Básicos: modo-api/conceptos.md
+      - Conexión con SAGE 50: modo-api/conexion.md
+      - Mapeo de Campos: modo-api/mapeo.md
+      - Proceso de Importación: modo-api/proceso.md
+      - Ejemplos de Uso: modo-api/ejemplos.md
+  - Modo de Generación CSV:
+      - modo-csv/index.md
+      - Conceptos Básicos: modo-csv/conceptos.md
+      - Configuración CSV: modo-csv/configuracion.md
+      - Generación de SQL: modo-csv/generacion-sql.md
+      - Importación Manual en SAGE 50: modo-csv/importacion-manual.md
+  - Gestión de Plantillas:
+      - plantillas/index.md
+      - Crear Plantilla: plantillas/crear.md
+      - Usar Plantilla: plantillas/usar.md
+      - Editar y Eliminar: plantillas/editar.md
+      - Plantillas Predefinidas: plantillas/predefinidas.md
+  - Interfaz Gráfica:
+      - interfaz-grafica/index.md
+      - Pantalla Principal: interfaz-grafica/pantalla-principal.md
+      - Barra de Navegación: interfaz-grafica/navegacion.md
+      - Pestaña Proceso API: interfaz-grafica/pestanha-api.md
+      - Pestaña Proceso CSV: interfaz-grafica/pestanha-csv.md
+      - Configuración en la UI: interfaz-grafica/configuracion.md
+  - Línea de Comandos:
+      - linea-comandos/index.md
+      - Comandos Disponibles: linea-comandos/comandos.md
+      - Automatización: linea-comandos/automatizacion.md
+      - Scripts por Lotes: linea-comandos/scripts-lotes.md
+  - Configuración Avanzada:
+      - configuracion/index.md
+      - Archivo config.ini: configuracion/config-ini.md
+      - Variables de Entorno: configuracion/variables-entorno.md
+      - Directorios y Archivos: configuracion/directorios.md
+      - Registro de Logs: configuracion/logs.md
+  - Solución de Problemas:
+      - solucion-problemas/index.md
+      - Problemas Comunes: solucion-problemas/comunes.md
+      - Errores de Conexión: solucion-problemas/errores-conexion.md
+      - Errores de Importación: solucion-problemas/errores-importacion.md
+      - Contacto y Soporte: solucion-problemas/soporte.md
+
+
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.betterem
+  - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - toc:
+      baselevel: 0
+copyright: Copyright &copy; 2026 AlfonsoAutomatiza.com
+
+# Configuración del tema Material
+theme:
+  name: material
+  logo: img/hola.png
+  favicon: img/favicon-32.png
+  language: es
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    logo: material/table-large
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+# Extensiones de Markdown
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets:
+      base_path: .
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - es
+        - en
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - callouts
+  - meta-descriptions:
+      export_csv: true
+      quiet: false
+      enable_checks: false
+      min_length: 50
+      max_length: 160
+      trim: false
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/★alfonso-martinez-gonzalez★-19236218/
+    - icon: fontawesome/brands/github
+      link: https://github.com/wertyMSD
+  version:
+    provider: mike
+    default: stable
+  analytics:
+    provider: google
+    property: G-9FBB0G8XHG
+    feedback:
+      title: ¿Esta página le ha sido útil?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Esta página es útil
+          data: 1
+          note: Gracias por su opinión
+        - icon: material/emoticon-neutral-outline
+          name: La página necesita mejorar
+          data: 0
+          note: Gracias por su opinión. Trabajaremos para mejorarla
+  consent:
+    title: Cookie
+    description: >-
+      Utilizamos cookies para reconocer sus visitas repetidas y sus preferencias,
+      así como para como para medir la eficacia de nuestra documentación y si los
+      usuarios  encuentran lo que buscan. Con su consentimiento, nos ayuda a
+      mejorar nuestra documentación
+# Campos adicionales para SEO
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - es
+        - en
+# CSS y JavaScript personalizado
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js

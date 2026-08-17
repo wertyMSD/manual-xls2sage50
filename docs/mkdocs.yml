@@ -1,0 +1,207 @@
+# Configuración de MkDocs para xls2sage50
+# Documentación de usuario completa
+
+site_name: xls2sage50 - Documentación de Usuario
+site_description: Guía completa de usuario para xls2sage50. Importa datos desde archivos Excel hacia SAGE 50 de forma sencilla y automatizada. Aprende a usar la interfaz gráfica, línea de comandos y modos de importación.
+site_author: ALCA TIC, S.L.
+site_url: https://docs.alcalic.com/xls2sage50
+
+# Repositorio
+repo_url: https://github.com/alcalic/xls2sage50
+repo_name: xls2sage50
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2026 ALCA TIC, S.L.
+
+# Directorios
+docs_dir: .
+site_dir: _site
+
+# Configuración del tema Material
+theme:
+  name: material
+  language: es
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    logo: material/table-large
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+# Extensiones de Markdown
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets:
+      base_path: .
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Complementos (plugins)
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - es
+        - en
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
+# Estructura de navegación
+nav:
+  - Inicio: index.md
+  - Instalación y Requisitos:
+      - instalacion/index.md
+      - Requisitos del Sistema: instalacion/requisitos.md
+      - Instalación: instalacion/instalacion.md
+      - Configuración Inicial: instalacion/configuracion-inicial.md
+      - Verificación: instalacion/verificacion.md
+  - Inicio Rápido:
+      - inicio-rapido/index.md
+      - Primeros Pasos: inicio-rapido/primeros-pasos.md
+      - Importación Básica: inicio-rapido/importacion-basica.md
+      - Ejemplo Práctico: inicio-rapido/ejemplo-practico.md
+  - Modo de Importación API:
+      - modo-api/index.md
+      - Conceptos Básicos: modo-api/conceptos.md
+      - Conexión con SAGE 50: modo-api/conexion.md
+      - Mapeo de Campos: modo-api/mapeo.md
+      - Proceso de Importación: modo-api/proceso.md
+      - Ejemplos de Uso: modo-api/ejemplos.md
+  - Modo de Generación CSV:
+      - modo-csv/index.md
+      - Conceptos Básicos: modo-csv/conceptos.md
+      - Configuración CSV: modo-csv/configuracion.md
+      - Generación de SQL: modo-csql/generacion-sql.md
+      - Importación Manual en SAGE 50: modo-csv/importacion-manual.md
+  - Gestión de Plantillas:
+      - plantillas/index.md
+      - Crear Plantilla: plantillas/crear.md
+      - Usar Plantilla: plantillas/usar.md
+      - Editar y Eliminar: plantillas/editar.md
+      - Plantillas Predefinidas: plantillas/predefinidas.md
+  - Interfaz Gráfica:
+      - interfaz-grafica/index.md
+      - Pantalla Principal: interfaz-grafica/pantalla-principal.md
+      - Barra de Navegación: interfaz-grafica/navegacion.md
+      - Pestaña Proceso API: interfaz-grafica/pestanha-api.md
+      - Pestaña Proceso CSV: interfaz-grafica/pestanha-csv.md
+      - Configuración en la UI: interfaz-grafica/configuracion.md
+  - Línea de Comandos:
+      - linea-comandos/index.md
+      - Comandos Disponibles: linea-comandos/comandos.md
+      - Automatización: linea-comandos/automatizacion.md
+      - Scripts por Lotes: linea-comandos/scripts-lotes.md
+  - Configuración Avanzada:
+      - configuracion/index.md
+      - Archivo config.ini: configuracion/config-ini.md
+      - Variables de Entorno: configuracion/variables-entorno.md
+      - Directorios y Archivos: configuracion/directorios.md
+      - Registro de Logs: configuracion/logs.md
+  - Solución de Problemas:
+      - solucion-problemas/index.md
+      - Problemas Comunes: solucion-problemas/comunes.md
+      - Errores de Conexión: solucion-problemas/errores-conexion.md
+      - Errores de Importación: solucion-problemas/errores-importacion.md
+      - Contacto y Soporte: solucion-problemas/soporte.md
+
+# CSS y JavaScript personalizado
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Datos adicionales
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/alcalic
+      name: GitHub
+    - icon: fontawesome/solid/globe
+      link: https://www.alcalic.com
+      name: Web
+  version:
+    provider: mike
+    default: stable
+  analytics:
+    feedback:
+      title: ¿Esta página le ha sido útil?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Esta página es útil
+          data: 1
+          note: Gracias por su opinión
+        - icon: material/emoticon-neutral-outline
+          name: La página necesita mejorar
+          data: 0
+          note: Gracias por su opinión. Trabajaremos para mejorarla
+
+# Campos adicionales para SEO
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - es
+        - en
