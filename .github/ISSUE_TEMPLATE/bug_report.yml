@@ -1,0 +1,83 @@
+name: Bug report
+description: Report a reproducible defect for receipt-driven development
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a defect. Provide evidence from a clean checkout of the default branch.
+
+  - type: textarea
+    id: invariant
+    attributes:
+      label: Causal invariant
+      description: State the single behavior that must remain true.
+      placeholder: In frozen Windows builds, every runtime write uses per-user storage while development keeps visible project-local paths.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction on clean main
+      description: Give the exact steps and commands that reproduce the defect on the current default branch.
+      placeholder: |
+        1. Check out a clean main branch.
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe the externally observable correct result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Describe the observed result, including relevant error output without secrets.
+    validations:
+      required: true
+
+  - type: textarea
+    id: flows
+    attributes:
+      label: Operator flows and negative controls
+      description: List each affected entry point, execution mode, environment, expected result, and negative control.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Python version, distribution mode, and relevant dependency versions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rollback
+    attributes:
+      label: Independent rollback
+      description: Explain how this correction can be reverted without reverting unrelated work.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I reproduced this defect on a clean checkout of the current default branch.
+          required: true
+        - label: This issue describes one independent causal invariant and rollback boundary.
+          required: true
+        - label: I removed credentials, private business data, and machine-specific paths from this report.
+          required: true
